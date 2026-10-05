@@ -1,0 +1,343 @@
+{
+  "mode": "built-in image_gen",
+  "createdAt": "2026-10-03",
+  "format": "WebP, quality 84; original aspect ratios retained",
+  "images": [
+    {
+      "key": "home-about",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-eeb01791-bb25-4da4-bc55-3c92fdefe594.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive photograph for the TİD Turkish Sign Language and interpreting website, home-about. Create one original landscape 3:2 photograph. Scene: Two middle-aged adults, one man and one woman, having an informal sign language conversation in a bright contemporary community studio. Both anatomically natural hands fully visible. Medium-wide candid shot, cream linen clothing, sage chairs, a terracotta ceramic cup on light oak table. Friendly eye contact, human connection. Style: high-end natural editorial photography, soft daylight, warm cream and sage with restrained terracotta, realistic skin and materials, clean professional composition. General depiction of communication, not an educational demonstration of a specific sign. No text, no lettering, no logos, no watermarks, no collage, no repeated image. Save the finished image and return its local file path.",
+      "target": "public/tid/photos/home-about.webp"
+    },
+    {
+      "key": "about-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-d2157ee2-1c03-4c13-8636-406a8e6b0549.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive photograph for the TİD Turkish Sign Language and interpreting website, about-hero. Create one original landscape 3:2 photograph. Scene: Three adults of diverse ages in a calm Turkish sign language interpretation workshop, seated in a spacious modern room with a plaster wall and olive plant. Candid side view, people placed toward the right half with quiet room space on the left for website overlay copy. Style: high-end natural editorial photography, soft daylight, warm cream and sage with restrained terracotta, realistic skin and materials, clean professional composition. General depiction of communication, not an educational demonstration of a specific sign. No text, no lettering, no logos, no watermarks, no collage, no repeated image. Save the finished image and return its local file path.",
+      "target": "public/tid/photos/about-hero.webp"
+    },
+    {
+      "key": "about-story",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-4751cf2d-af49-4ce8-bb3d-b7a872007190.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive photograph for the TİD Turkish Sign Language and interpreting website, about-story. Create one original landscape 3:2 photograph. Scene: Close editorial view of an older woman and younger male sign language interpreter communicating across a small round table in a welcoming accessible consultation room. Natural expressive hands, sincere faces, wide camera framing at table height. Different people and setting from other photographs. Style: high-end natural editorial photography, soft daylight, warm cream and sage with restrained terracotta, realistic skin and materials, clean professional composition. General depiction of communication, not an educational demonstration of a specific sign. No text, no lettering, no logos, no watermarks, no collage, no repeated image. Save the finished image and return its local file path.",
+      "target": "public/tid/photos/about-story.webp"
+    },
+    {
+      "key": "services-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-24e6d0c4-db3d-4152-98d7-652055cad029.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (services-hero). Produce ONE original landscape 3:2 image. Scene: Wide editorial photograph of a modern interpreting consultation studio with an interpreter and two clients in conversation on the right side, open calm cream wall on left. Warm walnut desk, softly lit sage curtains, candid professional atmosphere. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/services-hero.webp"
+    },
+    {
+      "key": "sign-language-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-10c49fcb-de15-4e6a-a172-53f9d7b3191c.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (sign-language-hero). Produce ONE original landscape 3:2 image. Scene: An adult woman wearing a muted sage shirt and an adult man in a cream sweater conversing in sign language beside a sunny window in a community consultation room. Medium-wide shot, both people on right half with quiet space left for a text overlay. Visible realistic hands. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/sign-language-hero.webp"
+    },
+    {
+      "key": "sign-language-detail",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-7104f650-405e-4a5f-8bc2-4de53068629c.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (sign-language-detail). Produce ONE original landscape 3:2 image. Scene: Side view of a young female interpreter assisting an older male visitor in an accessible reception area. Their natural gestural conversation and warm expressions visible, muted coral cardigan and navy jacket, softly blurred architectural background. Both subjects framed waist up. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/sign-language-detail.webp"
+    },
+    {
+      "key": "sworn-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-34460e4c-f4ed-4ed4-84ca-6ca5e8155336.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (sworn-hero). Produce ONE original landscape 3:2 image. Scene: A male professional interpreter calmly discussing unbranded printed documents with a female client in a bright neutral office. Papers and a pen visible on an oak desk at right, balanced wide shot with quiet space on left. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/sworn-hero.webp"
+    },
+    {
+      "key": "sworn-detail",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-92233d46-f70c-4d30-913e-51c75b0645fe.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (sworn-detail). Produce ONE original landscape 3:2 image. Scene: Natural editorial close-up of two professionals carefully comparing unmarked document pages across a cream desk, hands and pen visible, linen sleeves and blue blazer, no legible personal data, warmly lit minimal office. Distinct diagonal composition. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/sworn-detail.webp"
+    },
+    {
+      "key": "notary-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-9781d170-3665-4482-b810-c91eaaf2f794.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (notary-hero). Produce ONE original landscape 3:2 image. Scene: Three adults at a notarial consultation table, an interpreter with expressive hands assisting a female visitor and a formally dressed office professional reviewing documents. No actual legal certification implied. Warm stone wall, sage accents, people toward right, spacious left. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/notary-hero.webp"
+    },
+    {
+      "key": "notary-detail",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-8859a1b5-bd14-4f2b-810c-7ebd1aa90439.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (notary-detail). Produce ONE original landscape 3:2 image. Scene: Close side view of a professional explaining a document with a pen to a client whose hands are visible, elegant light wooden table, a closed blank folio and natural cream fabric. Soft daylight and shallow depth of field, warm reassuring mood. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/notary-detail.webp"
+    },
+    {
+      "key": "contact-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-07063cef-5753-4efe-9f71-443740e02b89.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (contact-hero). Produce ONE original landscape 3:2 image. Scene: A friendly female interpreter in a muted terracotta blouse seated at a minimalist desk, holding a smartphone and composing a written appointment response. Daylight, olive plant, sage backdrop, person on right with generous calm space on left. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/contact-hero.webp"
+    },
+    {
+      "key": "news-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-1f714903-24fa-439d-846e-d58857c793f8.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (news-hero). Produce ONE original landscape 3:2 image. Scene: An editorial communications workspace with a pair of adults discussing community announcements at a table, elegant navy and cream clothing, corkboard with blank papers in background, no text or logos. Natural candid scene at right with left negative space. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/news-hero.webp"
+    },
+    {
+      "key": "blog-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-bbe64ac0-278b-4208-99b9-4006a26d61a7.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (blog-hero). Produce ONE original landscape 3:2 image. Scene: A thoughtful writer in a warm cream sweater taking notes beside an open book and a laptop in a calm sage and oak reading studio. Person toward right side, soft window light, wide composition, no legible writing. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/blog-hero.webp"
+    },
+    {
+      "key": "social-preview",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-2260a239-3684-4a1c-b436-0b16f8f76370.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique TİD website photograph (social-preview). Produce ONE original landscape 3:2 image. Scene: An exclusive landscape still-life photo representing accessible communication: two distinct pairs of naturally posed hands engaged in conversation across a light oak table, cream and terracotta sleeves, soft sage room in background, elegant close framing, no text or branding. Editorial photorealism, natural anatomy and realistic skin, refined soft daylight, cream, sage, warm navy and restrained terracotta, subtle photographic texture. General contextual communication, not an educational example of a particular sign. No text, logos, watermarks, visible private information, montage or collage. Save image and return its local saved file path.",
+      "target": "public/tid/photos/social-preview.webp"
+    },
+    {
+      "key": "home-news-1",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-b86c5c5f-68d0-4164-914f-0a50dc7ba711.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive TİD homepage news card photo (home-news-1). Create one completely original landscape 3:2 editorial photograph. Scene: Editorial close view of an interpreter writing an appointment note beside an open blank folio and a terracotta cup at a cream desk, natural hands and soft daylight. Natural anatomy, warm cream/sage/navy/terracotta, tactile materials, subtle photographic texture. No text, logos, watermarks, identifiable personal data, collage or duplicate of any other image. Save output and return its local file path.",
+      "target": "public/tid/photos/home-news-1.webp"
+    },
+    {
+      "key": "home-news-2",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-7b5d1007-492b-4166-9bcd-1e635532c327.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive TİD homepage news card photo (home-news-2). Create one completely original landscape 3:2 editorial photograph. Scene: A middle-aged professional and a young visitor calmly discussing administrative paperwork beside a window, natural gestures, muted sage jacket and cream interior. Natural anatomy, warm cream/sage/navy/terracotta, tactile materials, subtle photographic texture. No text, logos, watermarks, identifiable personal data, collage or duplicate of any other image. Save output and return its local file path.",
+      "target": "public/tid/photos/home-news-2.webp"
+    },
+    {
+      "key": "home-news-3",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-e195947c-68ff-4635-9f26-ad4023729f17.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive TİD homepage news card photo (home-news-3). Create one completely original landscape 3:2 editorial photograph. Scene: An accessible communication workshop with two adults exchanging gestures over a small wooden table, candid oblique angle, natural realistic hands, warm beige and navy palette. Natural anatomy, warm cream/sage/navy/terracotta, tactile materials, subtle photographic texture. No text, logos, watermarks, identifiable personal data, collage or duplicate of any other image. Save output and return its local file path.",
+      "target": "public/tid/photos/home-news-3.webp"
+    },
+    {
+      "key": "home-blog-1",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-8ce147aa-efd1-486b-9e5f-f53161207bb8.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive TİD homepage blog card photo (home-blog-1). Create one completely original landscape 3:2 editorial photograph. Scene: A writer in a soft sage shirt reading a cream notebook in a quiet oak and plaster reading nook, gentle window light and small terracotta vase. Natural anatomy, warm cream/sage/navy/terracotta, tactile materials, subtle photographic texture. No text, logos, watermarks, identifiable personal data, collage or duplicate of any other image. Save output and return its local file path.",
+      "target": "public/tid/photos/home-blog-1.webp"
+    },
+    {
+      "key": "home-blog-2",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-99e0fb40-9dde-44c3-b2a0-f41944d4a885.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive TİD homepage blog card photo (home-blog-2). Create one completely original landscape 3:2 editorial photograph. Scene: Close-up of a person in navy knitwear using a laptop alongside an unmarked notebook and reading glasses, bright contemporary translation workspace. Natural anatomy, warm cream/sage/navy/terracotta, tactile materials, subtle photographic texture. No text, logos, watermarks, identifiable personal data, collage or duplicate of any other image. Save output and return its local file path.",
+      "target": "public/tid/photos/home-blog-2.webp"
+    },
+    {
+      "key": "home-blog-3",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-35a85019-cfc7-4755-8ee8-dd25df3494b4.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: exclusive TİD homepage blog card photo (home-blog-3). Create one completely original landscape 3:2 editorial photograph. Scene: Two colleagues thoughtfully reviewing an open reference book in a sunlit minimalist studio, authentic candid faces, cream and terracotta attire, no readable text. Natural anatomy, warm cream/sage/navy/terracotta, tactile materials, subtle photographic texture. No text, logos, watermarks, identifiable personal data, collage or duplicate of any other image. Save output and return its local file path.",
+      "target": "public/tid/photos/home-blog-3.webp"
+    },
+    {
+      "key": "editorial-01-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-e37da3a4-2f21-422a-aade-08ce981aaab2.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Tercümede Tek Harf Neden Önemli? Pasaport ve Resmî Belgelerde İsim Yazım Farkları. Scene: Close-up of a passport-shaped blank booklet beside a carefully checked unmarked printed form, magnifying glass and navy pen on a warm ivory desktop. No legible personal data. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-01-card.webp",
+      "articleId": "BpHOFTwGbsOE3rfUdn1A"
+    },
+    {
+      "key": "editorial-01-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-0ee73743-bad4-448d-ab27-8d23ab41d179.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Tercümede Tek Harf Neden Önemli? Pasaport ve Resmî Belgelerde İsim Yazım Farkları. Scene: Close-up of a passport-shaped blank booklet beside a carefully checked unmarked printed form, magnifying glass and navy pen on a warm ivory desktop. No legible personal data. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-01-hero.webp",
+      "articleId": "BpHOFTwGbsOE3rfUdn1A"
+    },
+    {
+      "key": "editorial-02-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-a1e79218-3502-49e4-b545-7621903b57fd.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Yurt Dışına Sunulacak Şirket Evraklarının Tercümesinde Nelere Dikkat Edilmeli?. Scene: A corporate professional organizing several blank company document folders on a walnut table, soft sage office background and a small bronze paperweight. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-02-card.webp",
+      "articleId": "FQUu1ZQUwtUqcsajhlJ9"
+    },
+    {
+      "key": "editorial-02-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-f5113a6c-0c51-4c26-b69d-20a5dab0d167.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Yurt Dışına Sunulacak Şirket Evraklarının Tercümesinde Nelere Dikkat Edilmeli?. Scene: A corporate professional organizing several blank company document folders on a walnut table, soft sage office background and a small bronze paperweight. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-02-hero.webp",
+      "articleId": "FQUu1ZQUwtUqcsajhlJ9"
+    },
+    {
+      "key": "editorial-03-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-c54ccc58-1276-4ded-a6ea-eb43f01d27b1.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Noter Onaylı Tercüme ile Apostil Arasındaki Fark Nedir?. Scene: An unbranded document folder, embossed blank seal and fountain pen on pale stone beside a warm cream folio. Elegant neutral administrative desk, no legible lettering. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-03-card.webp",
+      "articleId": "PbfcB05lWeuK1Gk6LuJy"
+    },
+    {
+      "key": "editorial-03-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-ae9cb42b-e77c-40a6-8852-e6d240039625.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Noter Onaylı Tercüme ile Apostil Arasındaki Fark Nedir?. Scene: An unbranded document folder, embossed blank seal and fountain pen on pale stone beside a warm cream folio. Elegant neutral administrative desk, no legible lettering. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-03-hero.webp",
+      "articleId": "PbfcB05lWeuK1Gk6LuJy"
+    },
+    {
+      "key": "editorial-04-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-dae33cc8-c888-4d47-add4-62ed350c539e.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Pasaportta Bir Harf, Diplomada Başka: İsim Yazım Farkları Tercümede Neden Önemlidir?. Scene: Two different blank identity document booklets compared by the careful hands of an interpreter wearing linen sleeves on a light oak consultation desk. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-04-card.webp",
+      "articleId": "RAPhTepRk2aS3fHh1jXd"
+    },
+    {
+      "key": "editorial-04-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-0bc2d594-8bff-4fcc-bb7b-390cd40a8fdf.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Pasaportta Bir Harf, Diplomada Başka: İsim Yazım Farkları Tercümede Neden Önemlidir?. Scene: Two different blank identity document booklets compared by the careful hands of an interpreter wearing linen sleeves on a light oak consultation desk. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-04-hero.webp",
+      "articleId": "RAPhTepRk2aS3fHh1jXd"
+    },
+    {
+      "key": "editorial-05-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-e1f820b2-05ff-493f-9e9f-db692b9ad555.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Diploma Tercümesinde İsim Soyisim Pasaportla Neden Aynı Yazılmalıdır?. Scene: A neatly rolled blank diploma-style sheet beside a generic dark identity booklet, reading glasses and sage-colored ribbon on a cream tabletop. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-05-card.webp",
+      "articleId": "Y6PTIJCy95UZCDED8GlE"
+    },
+    {
+      "key": "editorial-05-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-c76ce9af-71e6-43a0-9cad-6cc59f4d9803.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Diploma Tercümesinde İsim Soyisim Pasaportla Neden Aynı Yazılmalıdır?. Scene: A neatly rolled blank diploma-style sheet beside a generic dark identity booklet, reading glasses and sage-colored ribbon on a cream tabletop. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-05-hero.webp",
+      "articleId": "Y6PTIJCy95UZCDED8GlE"
+    },
+    {
+      "key": "editorial-06-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-067c35c9-f168-4ff4-8a05-d7598708880d.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Akademik Tercümede Yayın Diline Uyum. Scene: A focused academic editor reviewing an unmarked printed manuscript with a pencil and open reference book, soft studio light, muted terracotta stationery. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-06-card.webp",
+      "articleId": "akademik-tercumede-yayin-diline-uyum"
+    },
+    {
+      "key": "editorial-06-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-3b892bef-9375-4012-9cb8-4ffd1f4f614c.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Akademik Tercümede Yayın Diline Uyum. Scene: A focused academic editor reviewing an unmarked printed manuscript with a pencil and open reference book, soft studio light, muted terracotta stationery. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-06-hero.webp",
+      "articleId": "akademik-tercumede-yayin-diline-uyum"
+    },
+    {
+      "key": "editorial-07-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-c6d3d666-6fe9-44fa-a7e7-852c3ee6b357.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Apostil Onayı Hangi Belgelerde Gerekir?. Scene: Stack of neatly organized blank administrative papers with an unbranded stamp and gold-colored paperclip on an elegant sage desk blotter. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-07-card.webp",
+      "articleId": "apostil-onayi-hangi-belgelerde-gerekir"
+    },
+    {
+      "key": "editorial-07-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-3b27af05-4161-4391-a09d-d07f383b4ccc.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Apostil Onayı Hangi Belgelerde Gerekir?. Scene: Stack of neatly organized blank administrative papers with an unbranded stamp and gold-colored paperclip on an elegant sage desk blotter. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-07-hero.webp",
+      "articleId": "apostil-onayi-hangi-belgelerde-gerekir"
+    },
+    {
+      "key": "editorial-08-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-115df63f-b8d5-4262-b558-c9b095b22f87.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Kusursuz Bir Çeviri Web Sitenizi Google'da Neden Görünmez Yapar? \"Çok Dilli SEO ve Arama Niyeti Şifresi\". Scene: A content specialist checking a laptop and a handwritten notebook in a warm contemporary studio; screen deliberately unreadable, restrained navy and terracotta palette. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-08-card.webp",
+      "articleId": "cnyFVaXWxPaMscxb0pPm"
+    },
+    {
+      "key": "editorial-08-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-b1b6f252-21a9-4c52-969b-632461fa4ab4.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Kusursuz Bir Çeviri Web Sitenizi Google'da Neden Görünmez Yapar? \"Çok Dilli SEO ve Arama Niyeti Şifresi\". Scene: A content specialist checking a laptop and a handwritten notebook in a warm contemporary studio; screen deliberately unreadable, restrained navy and terracotta palette. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-08-hero.webp",
+      "articleId": "cnyFVaXWxPaMscxb0pPm"
+    },
+    {
+      "key": "editorial-09-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-6efce864-f6a7-4b07-90b1-f012b33975d8.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Profesyonel Tercüme Hizmeti Seçerken Nelere Bakılmalı?. Scene: A professional interpreting consultation between a woman in a navy jacket and a middle-aged male client, friendly careful discussion in a warm beige office. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-09-card.webp",
+      "articleId": "profesyonel-tercume-hizmeti-secerken-nelere-bakilmali"
+    },
+    {
+      "key": "editorial-09-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-6778547b-7c14-4fd2-b915-b31be75edd1d.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Profesyonel Tercüme Hizmeti Seçerken Nelere Bakılmalı?. Scene: A professional interpreting consultation between a woman in a navy jacket and a middle-aged male client, friendly careful discussion in a warm beige office. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-09-hero.webp",
+      "articleId": "profesyonel-tercume-hizmeti-secerken-nelere-bakilmali"
+    },
+    {
+      "key": "editorial-10-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-e95b3690-a241-47c5-aa86-2273ae6bd0af.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Teknik Tercümede Terminoloji Tutarlılığı Nasıl Sağlanır?. Scene: An engineer and a language specialist reviewing an unbranded technical drawing with abstract unlabeled lines at an oak table, quiet sage wall. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-10-card.webp",
+      "articleId": "teknik-tercumede-terminoloji-tutarliligi"
+    },
+    {
+      "key": "editorial-10-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-c1b25064-4479-4e04-a006-9dca9c5b172e.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Teknik Tercümede Terminoloji Tutarlılığı Nasıl Sağlanır?. Scene: An engineer and a language specialist reviewing an unbranded technical drawing with abstract unlabeled lines at an oak table, quiet sage wall. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-10-hero.webp",
+      "articleId": "teknik-tercumede-terminoloji-tutarliligi"
+    },
+    {
+      "key": "editorial-11-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-729299aa-6197-4d8a-baac-7413ad2f7c3d.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Tıbbi Belge Tercümesinde Gizlilik ve Doğruluk. Scene: A privacy-conscious interpreter reviewing generic blank report pages inside a cream folder, close-up of hands, clear desk and daylight, no medical data or readable text. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-11-card.webp",
+      "articleId": "tibbi-belge-tercumesinde-gizlilik-ve-dogruluk"
+    },
+    {
+      "key": "editorial-11-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-99d59b4e-ba64-4678-95cc-107f4d7609ce.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Tıbbi Belge Tercümesinde Gizlilik ve Doğruluk. Scene: A privacy-conscious interpreter reviewing generic blank report pages inside a cream folder, close-up of hands, clear desk and daylight, no medical data or readable text. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-11-hero.webp",
+      "articleId": "tibbi-belge-tercumesinde-gizlilik-ve-dogruluk"
+    },
+    {
+      "key": "editorial-12-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-3ab3a0b8-3f37-4ebd-ac8b-43da8883df33.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Barkodlu e-Devlet Belgeleri Tercüme Edilirken QR Kod ve Doğrulama Bilgilerine Ne Olur?. Scene: An adult examining a generic digitally formatted document with a blank grid placeholder and smartphone camera, only abstract graphics no actual QR code or personal information. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-12-card.webp",
+      "articleId": "u0hUicCMvg8Utzi1Bu2r"
+    },
+    {
+      "key": "editorial-12-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-f07fc335-fce4-427c-9b0f-fa171e704475.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Barkodlu e-Devlet Belgeleri Tercüme Edilirken QR Kod ve Doğrulama Bilgilerine Ne Olur?. Scene: An adult examining a generic digitally formatted document with a blank grid placeholder and smartphone camera, only abstract graphics no actual QR code or personal information. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-12-hero.webp",
+      "articleId": "u0hUicCMvg8Utzi1Bu2r"
+    },
+    {
+      "key": "editorial-13-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-2fdc0a0a-558c-424d-aa0d-7a08be6954e2.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Web Sitesi Tercümesinde SEO ve Lokalizasyon. Scene: A localization editor working at a clean laptop workspace with small cream and sage note cards, no readable screen text, warm daylight and plant. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-13-card.webp",
+      "articleId": "web-sitesi-tercumesinde-seo-ve-lokalizasyon"
+    },
+    {
+      "key": "editorial-13-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-e665dd3c-7698-4bb4-ac84-6c534b048350.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Web Sitesi Tercümesinde SEO ve Lokalizasyon. Scene: A localization editor working at a clean laptop workspace with small cream and sage note cards, no readable screen text, warm daylight and plant. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-13-hero.webp",
+      "articleId": "web-sitesi-tercumesinde-seo-ve-lokalizasyon"
+    },
+    {
+      "key": "editorial-14-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-25994ed6-fbc2-4e41-81e2-0114d2165775.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Yapay Zekâ Çağında İnsan Tercümanın Rolü. Scene: A thoughtful human translator using a notebook beside a modern laptop, close-up of natural hands and a terracotta coffee cup in a quiet creative studio. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-14-card.webp",
+      "articleId": "yapay-zeka-caginda-insan-tercumanin-rolu"
+    },
+    {
+      "key": "editorial-14-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-6cacf6f2-9073-48cc-b755-edf1b29f40df.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Yapay Zekâ Çağında İnsan Tercümanın Rolü. Scene: A thoughtful human translator using a notebook beside a modern laptop, close-up of natural hands and a terracotta coffee cup in a quiet creative studio. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-14-hero.webp",
+      "articleId": "yapay-zeka-caginda-insan-tercumanin-rolu"
+    },
+    {
+      "key": "editorial-15-card",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-aa91d540-3d60-4b8a-8d50-9aa74328ab07.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique article listing photograph for TİD. Article topic: Yeminli Tercüme ve Noter Onayı Arasındaki Fark Nedir?. Scene: A professional arranging unsigned blank document pages beside an unbranded stamp and a navy folio in a modern administrative office, soft natural light. Composition: intimate close framing, diagonally arranged objects, subtle tactile paper detail. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-15-card.webp",
+      "articleId": "yeminli-tercume-ve-noter-onayi-arasindaki-fark"
+    },
+    {
+      "key": "editorial-15-hero",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-db67afc8-59dd-43ee-a96d-63e33d41342d.png",
+      "prompt": "Use case: photorealistic-natural. Asset type: unique wide article hero photograph for TİD. Article topic: Yeminli Tercüme ve Noter Onayı Arasındaki Fark Nedir?. Scene: A professional arranging unsigned blank document pages beside an unbranded stamp and a navy folio in a modern administrative office, soft natural light. Composition: a distinctly different wide camera viewpoint and arrangement, principal subject toward right half, quiet space left for heading overlay; use different people or props from a close-up version. One original landscape 3:2 natural editorial photograph. Warm cream, sage, navy and restrained terracotta, realistic materials and anatomy, refined daylight. No text, readable lettering, logos, brands, watermarks, private information, collage or montage. This must be a genuinely distinct new composition, not a crop or duplicate of another image. Save the output and return its local path.",
+      "target": "public/tid/photos/editorial-15-hero.webp",
+      "articleId": "yeminli-tercume-ve-noter-onayi-arasindaki-fark"
+    },
+    {
+      "key": "admin-login",
+      "source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-18411275-904b-473d-9402-2aab82346015.png",
+      "prompt": "Use case photorealistic-natural. Create a new original landscape 3:2 editorial photograph for TİD sign language and sworn interpretation website, with no words, logos or watermark. A quiet professional reception desk seen from the corridor, a friendly male interpreter in a navy shirt welcoming a visitor through relaxed natural open hand gestures, an arched doorway, sage wall, warm cream plaster, terracotta upholstered chair and a small desk lamp. Subjects in the right half, shadow and empty corridor on the left for overlay text. Different location, subjects, props and composition from all prior generated TİD photographs. Calm sophisticated daylight, candid realistic human anatomy and hands, no staged exact instructional sign, no collage, no official authority insignia or readable documents.",
+      "target": "public/tid/photos/admin-login.webp"
+    }
+  ]
+}

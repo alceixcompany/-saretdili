@@ -1,0 +1,130 @@
+{
+  "projectId": "isaretdili-c3f9a",
+  "publicationDate": "2026-10-05T00:00:00.000Z",
+  "news": [
+    {
+      "id": "tid-dijital-deneyim",
+      "slug": "tid-hizmetleri-icin-yeni-dijital-deneyim",
+      "imageKey": "site",
+      "title": "TİD hizmetleri için yeni dijital deneyim",
+      "subtitle": "Hizmetler, güncel içerikler ve yazılı iletişim bir arada.",
+      "description": "Türk İşaret Dili, yeminli tercümanlık ve noter görüşmelerinde işaret dili desteğini TİD web sitesinden keşfedin.",
+      "content": "<h2>İhtiyacınıza uygun hizmeti keşfedin</h2><p>TİD web sitesi, Türk İşaret Dili tercümanlığı, yeminli tercüman ve noter görüşmelerinde işaret dili desteğini ayrı hizmet sayfalarında sunuyor. Her sayfada hizmetin kapsamına ve talep oluşturma adımlarına ulaşabilirsiniz.</p><h2>Bilgiye ve iletişime kolay erişim</h2><p>Haberler ve blog bölümlerinden güncel içerikleri takip edebilir, iletişim formundan ihtiyacınızı yazılı olarak paylaşabilirsiniz. Site arayüzü Türkçe, İngilizce, Almanca, Arapça ve Rusça dil seçenekleri sunuyor.</p>",
+      "tags": ["TİD", "erişilebilir iletişim", "dijital deneyim"],
+      "featured": true,
+      "translations": {
+        "en": {
+          "title": "A new digital experience for TİD services",
+          "subtitle": "Services, updates and written communication in one place.",
+          "description": "Explore Turkish Sign Language interpreting, sworn interpreter services and sign language support for notary appointments on the TİD website.",
+          "content": "<h2>Explore the service you need</h2><p>The TİD website presents Turkish Sign Language interpreting, sworn interpreter services and sign language support for notary appointments on separate service pages. Each page explains the scope and how to submit a request.</p><h2>Easy access to information and contact</h2><p>Follow updates in the news and blog sections and describe your needs in writing through the contact form. The website interface offers Turkish, English, German, Arabic and Russian.</p>"
+        },
+        "de": {
+          "title": "Ein neues digitales Erlebnis für TİD-Dienstleistungen",
+          "subtitle": "Dienstleistungen, Neuigkeiten und schriftlicher Kontakt an einem Ort.",
+          "description": "Entdecken Sie auf der TİD-Website Türkische Gebärdensprache, vereidigte Dolmetscher und Unterstützung bei Notarterminen.",
+          "content": "<h2>Die passende Dienstleistung finden</h2><p>Die TİD-Website stellt das Dolmetschen in Türkischer Gebärdensprache, vereidigte Dolmetscher und Unterstützung in Gebärdensprache bei Notarterminen auf eigenen Seiten vor. Dort finden Sie Informationen zum Umfang und zur Anfrage.</p><h2>Einfach informieren und Kontakt aufnehmen</h2><p>Verfolgen Sie aktuelle Beiträge in den Bereichen Nachrichten und Blog und teilen Sie Ihren Bedarf schriftlich über das Kontaktformular mit. Die Website bietet Türkisch, Englisch, Deutsch, Arabisch und Russisch.</p>"
+        },
+        "ar": {
+          "title": "تجربة رقمية جديدة لخدمات TİD",
+          "subtitle": "الخدمات والمستجدات والتواصل الكتابي في مكان واحد.",
+          "description": "اكتشف خدمات لغة الإشارة التركية والترجمة المحلفة ودعم لغة الإشارة في مواعيد الكاتب بالعدل عبر موقع TİD.",
+          "content": "<h2>اكتشف الخدمة المناسبة لاحتياجك</h2><p>يعرض موقع TİD الترجمة بلغة الإشارة التركية وخدمات المترجم المحلف ودعم لغة الإشارة في مواعيد الكاتب بالعدل ضمن صفحات مستقلة. توضح كل صفحة نطاق الخدمة وخطوات إرسال الطلب.</p><h2>الوصول بسهولة إلى المعلومات والتواصل</h2><p>يمكنك متابعة المحتوى الجديد في قسمي الأخبار والمدونة وشرح احتياجك كتابياً عبر نموذج التواصل. تتوفر واجهة الموقع بالتركية والإنجليزية والألمانية والعربية والروسية.</p>"
+        },
+        "ru": {
+          "title": "Новый цифровой формат услуг TİD",
+          "subtitle": "Услуги, новости и письменное общение в одном месте.",
+          "description": "Узнайте об услугах турецкого жестового языка, присяжного переводчика и сопровождения у нотариуса на сайте TİD.",
+          "content": "<h2>Найдите подходящую услугу</h2><p>На сайте TİD перевод на турецкий жестовый язык, услуги присяжного переводчика и поддержка жестового языка на встречах у нотариуса представлены на отдельных страницах. На каждой странице описаны содержание услуги и порядок подачи запроса.</p><h2>Удобный доступ к информации и связи</h2><p>Следите за обновлениями в разделах новостей и блога и опишите свой запрос письменно через контактную форму. Интерфейс сайта доступен на турецком, английском, немецком, арабском и русском языках.</p>"
+        }
+      }
+    },
+    {
+      "id": "tid-yazili-randevu-talebi",
+      "slug": "yazili-randevu-talebiyle-iletisim-daha-kolay",
+      "imageKey": "request",
+      "title": "Yazılı randevu talebiyle iletişim daha kolay",
+      "subtitle": "İhtiyacınızı kendi kelimelerinizle paylaşın.",
+      "description": "Tercümanlık ihtiyacınızı iletişim formundan yazılı olarak iletin; hizmet kapsamını ve görüşme planını birlikte netleştirelim.",
+      "content": "<h2>Talebinizi yazılı olarak iletin</h2><p>İletişim formundan ihtiyaç duyduğunuz hizmeti seçebilir ve görüşmenin konusunu paylaşabilirsiniz. Tercih ettiğiniz tarih, görüşme yeri ve süre hakkında bilgi vermeniz, talebin değerlendirilmesini kolaylaştırır.</p><h2>Planı birlikte netleştirelim</h2><p>Talep oluşturmak, randevunun kesinleştiği anlamına gelmez. Tercüman uygunluğu, görüşme koşulları ve ücret bilgisi değerlendirme sonrasında sizinle netleştirilir. Böylece görüşmeden önce kapsamı ve sonraki adımı birlikte belirleyebiliriz.</p>",
+      "tags": ["randevu", "yazılı iletişim", "tercüman talebi"],
+      "featured": false,
+      "translations": {
+        "en": {
+          "title": "Easier communication with a written appointment request",
+          "subtitle": "Share your needs in your own words.",
+          "description": "Send your interpreting request in writing through the contact form so we can clarify the service and meeting plan together.",
+          "content": "<h2>Send your request in writing</h2><p>Select the service you need in the contact form and describe the purpose of the meeting. Providing your preferred date, location and expected duration helps us assess the request.</p><h2>Clarify the plan together</h2><p>Submitting a request does not confirm an appointment. Interpreter availability, meeting conditions and pricing are clarified with you after assessment. This helps establish the scope and next step before the meeting.</p>"
+        },
+        "de": {
+          "title": "Einfacher kommunizieren mit einer schriftlichen Terminanfrage",
+          "subtitle": "Beschreiben Sie Ihren Bedarf in eigenen Worten.",
+          "description": "Senden Sie Ihre Dolmetschanfrage schriftlich über das Kontaktformular, damit wir Leistung und Termin gemeinsam klären können.",
+          "content": "<h2>Ihre Anfrage schriftlich senden</h2><p>Wählen Sie im Kontaktformular die benötigte Dienstleistung und beschreiben Sie den Anlass des Gesprächs. Ihr Wunschtermin, der Ort und die voraussichtliche Dauer helfen bei der Bewertung der Anfrage.</p><h2>Den Ablauf gemeinsam klären</h2><p>Eine Anfrage ist noch keine Terminbestätigung. Verfügbarkeit, Gesprächsbedingungen und Preis werden nach der Prüfung mit Ihnen abgestimmt. So lassen sich der Umfang und der nächste Schritt vor dem Gespräch festlegen.</p>"
+        },
+        "ar": {
+          "title": "تواصل أسهل عبر طلب موعد كتابي",
+          "subtitle": "اشرح احتياجك بكلماتك الخاصة.",
+          "description": "أرسل طلب الترجمة كتابياً عبر نموذج التواصل لنوضح معاً نطاق الخدمة وخطة اللقاء.",
+          "content": "<h2>أرسل طلبك كتابياً</h2><p>اختر الخدمة التي تحتاجها في نموذج التواصل واشرح موضوع اللقاء. تساعد معلومات التاريخ المفضل ومكان اللقاء والمدة المتوقعة على تقييم الطلب.</p><h2>لنحدد الخطة معاً</h2><p>إرسال الطلب لا يعني تأكيد الموعد. يتم توضيح توفر المترجم وظروف اللقاء والتكلفة معك بعد تقييم الطلب. وبذلك يمكن تحديد نطاق الخدمة والخطوة التالية قبل اللقاء.</p>"
+        },
+        "ru": {
+          "title": "Общаться проще с письменным запросом на встречу",
+          "subtitle": "Расскажите о своих потребностях своими словами.",
+          "description": "Отправьте письменный запрос через контактную форму, чтобы вместе уточнить содержание услуги и план встречи.",
+          "content": "<h2>Отправьте запрос письменно</h2><p>Выберите нужную услугу в контактной форме и опишите цель встречи. Желаемая дата, место и предполагаемая продолжительность помогут оценить запрос.</p><h2>Уточним план вместе</h2><p>Отправка запроса не является подтверждением записи. Доступность переводчика, условия встречи и стоимость согласовываются с вами после оценки запроса. Это помогает определить содержание услуги и следующий шаг до встречи.</p>"
+        }
+      }
+    },
+    {
+      "id": "tid-noter-gorusmesi-hazirlik",
+      "slug": "noter-gorusmelerinde-hazirligi-birlikte-planlayalim",
+      "imageKey": "notary",
+      "title": "Noter görüşmelerinde hazırlığı birlikte planlayalım",
+      "subtitle": "İşlem öncesinde konu, tarih ve görüşme koşulları netleşsin.",
+      "description": "Noter görüşmesinde işaret dili desteği için işlem konusunu, tercih ettiğiniz noterliği ve düşündüğünüz tarihi paylaşabilirsiniz.",
+      "content": "<h2>Görüşmenin çerçevesini paylaşın</h2><p>Noter görüşmesinde işaret dili tercümanlığı talep ederken yapılacak işlemi, tercih edilen noterliği ve düşünülen tarihi belirtmeniz planlamaya yardımcı olur. Bu bilgiler üzerinden tercüman uygunluğu ve görüşme koşulları değerlendirilir.</p><h2>Koşulları işlemden önce netleştirin</h2><p>İlgili noterliğin tercüman ve belge koşulları işlem öncesinde doğrudan teyit edilmelidir. Talebiniz değerlendirildikten sonra hizmet kapsamı ve randevu planı sizinle paylaşılır. Başvuru formunun gönderilmesi tek başına kesin randevu oluşturmaz.</p>",
+      "tags": ["noter", "işaret dili", "görüşme hazırlığı"],
+      "featured": false,
+      "translations": {
+        "en": {
+          "title": "Let’s plan preparation for your notary appointment",
+          "subtitle": "Clarify the purpose, date and meeting conditions in advance.",
+          "description": "For sign language support at a notary appointment, share the type of procedure, preferred notary office and proposed date.",
+          "content": "<h2>Share the meeting details</h2><p>When requesting sign language interpreting for a notary appointment, describe the procedure, preferred notary office and proposed date. These details help assess interpreter availability and meeting conditions.</p><h2>Clarify conditions before the procedure</h2><p>The notary office’s interpreter and document requirements should be confirmed directly with the office beforehand. After your request is assessed, the service scope and appointment plan are shared with you. Sending the form alone does not confirm an appointment.</p>"
+        },
+        "de": {
+          "title": "Die Vorbereitung auf Ihren Notartermin gemeinsam planen",
+          "subtitle": "Anlass, Datum und Gesprächsbedingungen vorab klären.",
+          "description": "Teilen Sie für Unterstützung in Gebärdensprache den Vorgang, das gewünschte Notariat und den vorgesehenen Termin mit.",
+          "content": "<h2>Die Gesprächsdaten mitteilen</h2><p>Nennen Sie bei einer Anfrage für Gebärdensprachdolmetschen den Vorgang, das gewünschte Notariat und den vorgesehenen Termin. Diese Informationen helfen, Verfügbarkeit und Gesprächsbedingungen zu prüfen.</p><h2>Die Bedingungen vorab klären</h2><p>Die Anforderungen des Notariats an Dolmetscher und Unterlagen sollten vor dem Vorgang direkt dort bestätigt werden. Nach der Prüfung Ihrer Anfrage werden Leistungsumfang und Terminplanung mit Ihnen abgestimmt. Das Absenden des Formulars allein bestätigt keinen Termin.</p>"
+        },
+        "ar": {
+          "title": "لنخطط معاً للتحضير لموعد الكاتب بالعدل",
+          "subtitle": "توضيح موضوع اللقاء وتاريخه وظروفه مسبقاً.",
+          "description": "لطلب دعم لغة الإشارة في موعد الكاتب بالعدل، شارك نوع الإجراء والمكتب المفضل والتاريخ المقترح.",
+          "content": "<h2>شارك تفاصيل اللقاء</h2><p>عند طلب الترجمة بلغة الإشارة لموعد الكاتب بالعدل، وضح الإجراء والمكتب المفضل والتاريخ المقترح. تساعد هذه التفاصيل على تقييم توفر المترجم وظروف اللقاء.</p><h2>وضح الشروط قبل الإجراء</h2><p>ينبغي التأكد مباشرة من المكتب مسبقاً من شروطه المتعلقة بالمترجم والوثائق. بعد تقييم طلبك، تتم مشاركة نطاق الخدمة وخطة الموعد معك. إرسال النموذج وحده لا يؤكد الموعد.</p>"
+        },
+        "ru": {
+          "title": "Вместе спланируем подготовку к встрече у нотариуса",
+          "subtitle": "Заранее уточните цель, дату и условия встречи.",
+          "description": "Для поддержки жестового языка у нотариуса сообщите вид процедуры, выбранную нотариальную контору и предполагаемую дату.",
+          "content": "<h2>Сообщите подробности встречи</h2><p>При запросе перевода на жестовый язык у нотариуса укажите процедуру, выбранную нотариальную контору и предполагаемую дату. Это поможет оценить доступность переводчика и условия встречи.</p><h2>Уточните условия заранее</h2><p>Требования нотариальной конторы к переводчику и документам следует заранее подтвердить непосредственно в конторе. После оценки запроса с вами согласовываются содержание услуги и план встречи. Само отправление формы не подтверждает запись.</p>"
+        }
+      }
+    }
+  ],
+  "galleryCategories": [
+    { "id": "tid-isaret-dili", "name": "İşaret Dili ve İletişim", "description": "Erişilebilir iletişimi anlatan temsili görseller.", "icon": "🤟", "color": "green" },
+    { "id": "tid-tercumanlik", "name": "Tercümanlık ve Hazırlık", "description": "Belge hazırlığı ve tercümanlık çalışmalarını anlatan temsili görseller.", "icon": "📄", "color": "blue" },
+    { "id": "tid-noter", "name": "Randevu Koordinasyonu", "description": "Görüşme planlamasını anlatan temsili görseller.", "icon": "📅", "color": "purple" }
+  ],
+  "galleryItems": [
+    { "id": "tid-gallery-conversation", "title": "Yüz yüze erişilebilir iletişim", "description": "<p>Karşılıklı anlayışa odaklanan işaret dili görüşmesini anlatan temsili görsel.</p>", "categoryId": "tid-isaret-dili", "tags": ["işaret dili", "iletişim"] },
+    { "id": "tid-gallery-online", "title": "Çevrim içi görüşmeye hazırlık", "description": "<p>Çevrim içi tercümanlık görüşmesine hazırlığı anlatan temsili görsel.</p>", "categoryId": "tid-isaret-dili", "tags": ["çevrim içi", "hazırlık"] },
+    { "id": "tid-gallery-meeting", "title": "Toplantıda iletişime alan açmak", "description": "<p>Toplantılarda erişilebilir iletişim yaklaşımını anlatan temsili görsel.</p>", "categoryId": "tid-isaret-dili", "tags": ["toplantı", "erişilebilirlik"] },
+    { "id": "tid-gallery-documents", "title": "Özenli belge hazırlığı", "description": "<p>Belge düzeni ve hazırlık aşamasını anlatan temsili görsel.</p>", "categoryId": "tid-tercumanlik", "tags": ["belge", "tercümanlık"] },
+    { "id": "tid-gallery-coordination", "title": "Görüşme ve randevu koordinasyonu", "description": "<p>Görüşme öncesi tarih ve koşulların birlikte planlanmasını anlatan temsili görsel.</p>", "categoryId": "tid-noter", "tags": ["randevu", "koordinasyon"] },
+    { "id": "tid-gallery-preparation", "title": "Tercümanlık görüşmesine hazırlık", "description": "<p>Görüşme konusu üzerinde dikkatli hazırlık yapılmasını anlatan temsili görsel.</p>", "categoryId": "tid-tercumanlik", "tags": ["tercümanlık", "hazırlık"] }
+  ]
+}

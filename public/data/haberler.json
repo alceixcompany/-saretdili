@@ -1,0 +1,63 @@
+{
+  "kategoriler": [
+    {
+      "id": "resmi-evrak",
+      "name": "Resmi Evrak",
+      "count": 3
+    },
+    {
+      "id": "vize-surecleri",
+      "name": "Vize Süreçleri",
+      "count": 2
+    },
+    {
+      "id": "noter-onayi",
+      "name": "Noter Onayı",
+      "count": 2
+    }
+  ],
+  "haberler": [
+    {
+      "id": 1,
+      "slug": "pasaport-tercumesi-ne-zaman-gerekir",
+      "title": "Pasaport Tercümesi Ne Zaman Gerekir?",
+      "excerpt": "Vize, ikamet ve resmi başvurularda pasaport tercümesinin hangi durumlarda istendiğini kısa başlıklarla inceleyin.",
+      "content": "Pasaport tercümesi; vize, ikamet, çalışma izni, eğitim başvurusu ve bazı resmi kurum işlemlerinde talep edilebilir.\n\nBaşvuru yapılacak kurumun istediği format, hedef dil ve noter onayı ihtiyacı baştan kontrol edilmelidir. Belgeyi göndermeden önce pasaport sayfalarının net ve okunabilir olması süreci hızlandırır.",
+      "image": "/beyvip/passport.png",
+      "date": "20 Haziran 2026",
+      "author": "YP Metropol Tercüme",
+      "category": "Resmi Evrak",
+      "categoryId": "resmi-evrak",
+      "readTime": "3 dk",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "slug": "noter-onayli-tercume-icin-belge-hazirligi",
+      "title": "Noter Onaylı Tercüme İçin Belge Hazırlığı",
+      "excerpt": "Noter onayı gereken belgelerde tercüme öncesi dikkat edilmesi gereken temel noktalar.",
+      "content": "Noter onaylı tercüme için belgenin okunabilir, eksiksiz ve kullanım amacına uygun şekilde değerlendirilmesi gerekir.\n\nTercüme dili, belge türü, teslim süresi ve noter onayı ihtiyacı önceden netleşirse süreç daha düzenli ilerler. Bazı belgelerde apostil ya da ek kurum onayı da gündeme gelebilir.",
+      "image": "/beyvip/legal.png",
+      "date": "18 Haziran 2026",
+      "author": "YP Metropol Tercüme",
+      "category": "Noter Onayı",
+      "categoryId": "noter-onayi",
+      "readTime": "4 dk",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "slug": "vize-evraklari-tercumesinde-sik-yapilan-hatalar",
+      "title": "Vize Evrakları Tercümesinde Sık Yapılan Hatalar",
+      "excerpt": "Konsolosluk dosyalarında belge formatı, tarih ve isim yazımı gibi detaylar neden önemlidir?",
+      "content": "Vize evraklarında isim, tarih, belge numarası ve kurum adı gibi küçük görünen detaylar başvuru dosyasının bütünlüğünü etkileyebilir.\n\nBelgenin hedef dile doğru aktarılması kadar temiz formatta teslim edilmesi de önemlidir. Başvuru öncesinde hangi belgelerin tercüme edileceği kurum talimatlarına göre kontrol edilmelidir.",
+      "image": "/beyvip/hero.png",
+      "date": "15 Haziran 2026",
+      "author": "YP Metropol Tercüme",
+      "category": "Vize Süreçleri",
+      "categoryId": "vize-surecleri",
+      "readTime": "4 dk",
+      "featured": false
+    }
+  ]
+}
