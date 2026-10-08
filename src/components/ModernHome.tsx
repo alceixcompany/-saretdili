@@ -16,6 +16,7 @@ import {
 import { PiHandsClapping, PiHandWaving, PiSealCheck } from "react-icons/pi";
 import { tidFaqs } from "@/lib/tid";
 import { ServiceCards, TidCta } from "./TidSections";
+import { TidSituations, TidMeetingFormats } from "./TidInformation";
 const steps = [
   {
     number: "01",
@@ -132,6 +133,7 @@ export default function ModernHome() {
           <ServiceCards />
         </div>
       </section>
+      <TidSituations />
       <section className="tid-about-section">
         <div className="tid-container tid-about-grid">
           <div className="tid-about-art">
@@ -238,6 +240,7 @@ export default function ModernHome() {
           </div>
         </div>
       </section>
+      <TidMeetingFormats />
       <section className="tid-faq-section" id="sik-sorulan-sorular">
         <div className="tid-container tid-faq-grid">
           <div>

@@ -3,6 +3,7 @@ import TidHero from "@/components/TidHero";
 import { Text } from "@/components/LanguageProvider";
 import { LocalizedLink as Link } from "@/components/LanguageProvider";
 import { ServiceCards, TidCta } from "@/components/TidSections";
+import { TidServicesIntroduction, TidServiceScope, TidRequestPreparation } from "@/components/TidInformation";
 import JsonLd from "@/components/JsonLd";
 import { tidServices } from "@/lib/tid";
 import { absoluteUrl, createSeoMetadata } from "@/lib/seo";
@@ -73,9 +74,12 @@ export default async function ServicesPage() {
       </TidHero>
       <section className="tid-section">
         <div className="tid-container">
+          <TidServicesIntroduction />
           <ServiceCards />
         </div>
       </section>
+      <TidServiceScope />
+      <TidRequestPreparation />
       <TidCta />
     </main>
   );

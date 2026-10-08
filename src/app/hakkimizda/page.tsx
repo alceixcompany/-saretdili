@@ -5,6 +5,7 @@ import { LocalizedImage as Image } from "@/components/LanguageProvider";
 import { LocalizedLink as Link } from "@/components/LanguageProvider";
 import { FiHeart, FiMessageCircle, FiCheckCircle } from "react-icons/fi";
 import { TidCta } from "@/components/TidSections";
+import { TidPurpose, TidWorkingPrinciples } from "@/components/TidInformation";
 import { createSeoMetadata } from "@/lib/seo";
 import { getRequestSiteConfig } from "@/lib/server-seo";
 export async function generateMetadata() {
@@ -120,6 +121,8 @@ export default function AboutPage() {
           ))}
         </div>
       </section>
+      <TidPurpose />
+      <TidWorkingPrinciples />
       <TidCta />
     </main>
   );

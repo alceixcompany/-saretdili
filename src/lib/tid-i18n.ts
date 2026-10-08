@@ -1,4 +1,5 @@
 import { translate as legacyTranslate } from "./i18n";
+import { pageTranslations } from "./tid-page-content";
 export const locales = ["tr", "en", "de", "ar", "ru"] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = "tr";
@@ -19,6 +20,7 @@ export const tidTranslations: Record<
   string,
   readonly [string, string, string, string]
 > = {
+  ...pageTranslations,
   "TİD Tercümanlığı": [
     "TİD Interpreting",
     "TİD Dolmetschen",
