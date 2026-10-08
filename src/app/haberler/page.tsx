@@ -1,4 +1,5 @@
 import { EditorialArchive } from "@/components/EditorialContent";
-export default function NewsPage() {
-  return <EditorialArchive kind="news" />;
+import { getPublishedArticles } from "@/lib/server-content";
+export default async function NewsPage() {
+  return <EditorialArchive kind="news" initialArticles={await getPublishedArticles()} />;
 }

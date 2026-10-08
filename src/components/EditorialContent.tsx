@@ -132,8 +132,8 @@ function ContentStatus({
     </div>
   );
 }
-export function EditorialHome() {
-  const { articles, loading, error, retry } = usePublishedContent();
+export function EditorialHome({ initialArticles }: { initialArticles?: Article[] }) {
+  const { articles, loading, error, retry } = usePublishedContent(initialArticles);
   const images = resolveEditorialImages(articles);
   return (
     <>
@@ -187,8 +187,8 @@ export function EditorialHome() {
     </>
   );
 }
-export function EditorialArchive({ kind }: { kind: ContentKind }) {
-  const { articles, loading, error, retry } = usePublishedContent();
+export function EditorialArchive({ kind, initialArticles }: { kind: ContentKind; initialArticles?: Article[] }) {
+  const { articles, loading, error, retry } = usePublishedContent(initialArticles);
   const images = resolveEditorialImages(articles);
   const [visible, setVisible] = useState(9);
   const data = articles.filter((article) => article.kind === kind),
@@ -273,11 +273,13 @@ export function EditorialArchive({ kind }: { kind: ContentKind }) {
 export function EditorialDetail({
   slug,
   kind,
+  initialArticles,
 }: {
   slug: string;
   kind: ContentKind;
+  initialArticles?: Article[];
 }) {
-  const { articles, loading, error, retry } = usePublishedContent();
+  const { articles, loading, error, retry } = usePublishedContent(initialArticles);
   const { locale, t } = useLanguage();
   // Document IDs also resolve old records that were created before slugs existed.
   const article = articles.find(

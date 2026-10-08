@@ -40,12 +40,60 @@ const {
 const { translate, locales, isLocale, localeMeta } = loadTs(
   "src/lib/tid-i18n.ts",
 );
+const { decodeFirestoreFields, resolvePublishedSnapshot } = loadTs("src/lib/published-content.ts");
 const source = {
   title: "Türk İşaret Dili",
   description: "Açıklama",
   content: "<p>İçerik</p>",
   isActive: true,
 };
+test("server-rendered posts survive a slow or failed browser connection, but unpublished posts disappear on an authoritative empty response", () => {
+  const articles = [normalizeArticle("news", source), normalizeArticle("blog", {...source, kind: "blog"})];
+  const pending = {articles: [], loading: true, error: false, received: false};
+  assert.deepEqual(resolvePublishedSnapshot(pending, articles).articles, articles);
+  assert.equal(resolvePublishedSnapshot(pending, articles).loading, false);
+  assert.deepEqual(resolvePublishedSnapshot({...pending, loading: false, error: true}, articles).articles, articles);
+  assert.deepEqual(resolvePublishedSnapshot({...pending, loading: false, received: true}, articles).articles, []);
+  assert.equal(resolvePublishedSnapshot(pending).loading, true);
+});
+test("Firestore REST fields preserve publication flags, dates, ordering and nested multilingual article copies", () => {
+  const fields = decodeFirestoreFields({
+    title: {stringValue: "Rehber"},
+    isActive: {booleanValue: true},
+    kind: {stringValue: "blog"},
+    order: {integerValue: "-3"},
+    createdAt: {timestampValue: "2026-10-08T00:00:00Z"},
+    tags: {arrayValue: {values: [{stringValue: "iletişim"}]}},
+    translations: {mapValue: {fields: {en: {mapValue: {fields: {
+      title: {stringValue: "Guide"}, description: {stringValue: "Summary"}, content: {stringValue: "<p>Details</p>"},
+    }}}}}},
+  });
+  const article = normalizeArticle("guide", fields);
+  assert.equal(article.isActive, true);
+  assert.equal(article.order, -3);
+  assert.equal(article.createdAt, "2026-10-08T00:00:00.000Z");
+  assert.deepEqual(article.tags, ["iletişim"]);
+  assert.equal(localizedArticle(article, "en").title, "Guide");
+  assert.equal(normalizeArticle("draft", decodeFirestoreFields({isActive: {booleanValue: false}})).isActive, false);
+});
+test("the editorial seed publishes distinct news and blogs in five languages without sharing images with launch posts", () => {
+  const seed = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../docs/tid-editorial-content.json"), "utf8"));
+  const launch = JSON.parse(fs.readFileSync(path.resolve(__dirname, "../docs/tid-launch-content.json"), "utf8"));
+  assert.equal(seed.projectId, launch.projectId);
+  assert.equal(seed.news.length, 3);
+  assert.equal(seed.blog.length, 3);
+  const old = launch.news.map(item => normalizeArticle(item.id, {...item, isActive: true, kind: "news", imageUrl: `/tid/photos/tid-news-${item.imageKey}-card.webp`, heroImageUrl: `/tid/photos/tid-news-${item.imageKey}-hero.webp`, homeImageUrl: `/tid/photos/tid-news-${item.imageKey}-home.webp`}));
+  const added = ["news", "blog"].flatMap(kind => seed[kind].map(item => normalizeArticle(item.id, {...item, kind, isActive: true})));
+  const all = [...old, ...added];
+  assert.equal(new Set(all.map(item => item.id)).size, all.length);
+  for (const article of added) {
+    assert.equal(validateArticleImages(article, all), "");
+    for (const locale of ["en", "de", "ar", "ru"]) assert.equal(localizedArticle(article, locale).translated, true);
+    for (const url of [article.imageUrl, article.heroImageUrl]) assert.ok(fs.existsSync(path.resolve(__dirname, "../public", url.slice(1))));
+  }
+  const resolved = Object.values(resolveEditorialImages(all)).flatMap(item => [item.card, item.hero, item.home].filter(Boolean));
+  assert.equal(new Set(resolved).size, resolved.length);
+});
 test("existing news keeps its type and Turkish slug; explicit slug is stable after editing", () => {
   const legacy = normalizeArticle("document", source);
   assert.equal(legacy.kind, "news");

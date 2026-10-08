@@ -17,6 +17,7 @@ import { PiHandsClapping, PiHandWaving, PiSealCheck } from "react-icons/pi";
 import { tidFaqs } from "@/lib/tid";
 import { ServiceCards, TidCta } from "./TidSections";
 import { TidSituations, TidMeetingFormats } from "./TidInformation";
+import type { Article } from "@/lib/editorial";
 const steps = [
   {
     number: "01",
@@ -37,7 +38,7 @@ const steps = [
     icon: PiSealCheck,
   },
 ];
-export default function ModernHome() {
+export default function ModernHome({ initialArticles }: { initialArticles?: Article[] }) {
   return (
     <main id="main-content" className="tid-site">
       <TidHero variant="home" image={tidImages.homeHero} imagePosition="center 45%">
@@ -283,7 +284,7 @@ export default function ModernHome() {
           </div>
         </div>
       </section>
-      <EditorialHome />
+      <EditorialHome initialArticles={initialArticles} />
       <TidCta />
     </main>
   );

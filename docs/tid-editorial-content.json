@@ -1,0 +1,248 @@
+{
+  "projectId": "isaretdili-c3f9a",
+  "publicationDate": "2026-10-08T00:00:00.000Z",
+  "news": [
+    {
+      "id": "best-logo-web-yayinda",
+      "slug": "best-tercumanlik-logosu-sitede-yerini-aldi",
+      "title": "Best Tercümanlık logosu sitede yerini aldı",
+      "subtitle": "",
+      "description": "Yeni logo; mobil ve masaüstü üst menüde, alt bilgi alanında ve yönetim girişinde şeffaf arka planıyla kullanılıyor.",
+      "content": "<h2>Her ekranda aynı kimlik</h2><p>Best Tercümanlık logosundaki el simgeleri, marka yazısı ve alt açıklama birlikte korunarak web sitesine eklendi. Logo boyutu ekran genişliğine göre ayarlanıyor; koyu zeminlerde okunabilir beyaz görünümü kullanılıyor. Tarayıcı ve mobil ana ekran ikonları da aynı simgeden hazırlandı.</p>",
+      "imageUrl": "/tid/photos/editorial-12-card.webp",
+      "heroImageUrl": "/tid/photos/editorial-12-hero.webp",
+      "homeImageUrl": "",
+      "featured": true,
+      "order": -3,
+      "tags": [],
+      "translations": {
+        "en": {
+          "title": "The Best Tercümanlık logo is now on the website",
+          "subtitle": "",
+          "description": "The logo appears with a transparent background in the mobile and desktop header, footer and admin login.",
+          "content": "<h2>A consistent identity on every screen</h2><p>The hand symbols, brand lettering and tagline of the Best Tercümanlık logo have been retained together on the website. Its size adapts to the screen width, with a readable white version on dark backgrounds. Browser and mobile home-screen icons use the same symbol.</p>"
+        },
+        "de": {
+          "title": "Das Best-Tercümanlık-Logo ist jetzt auf der Website",
+          "subtitle": "",
+          "description": "Das Logo erscheint mit transparentem Hintergrund im mobilen und Desktop-Kopfbereich, im Footer und beim Admin-Login.",
+          "content": "<h2>Einheitlicher Auftritt auf jedem Bildschirm</h2><p>Handsymbole, Schriftzug und Unterzeile des Best-Tercümanlık-Logos wurden gemeinsam auf der Website übernommen. Die Größe passt sich der Bildschirmbreite an; auf dunklen Flächen erscheint eine gut lesbare weiße Version. Browser- und Startbildschirm-Icons nutzen dasselbe Symbol.</p>"
+        },
+        "ar": {
+          "title": "شعار Best Tercümanlık أصبح على الموقع",
+          "subtitle": "",
+          "description": "يظهر الشعار بخلفية شفافة في رأس الموقع على الهاتف والحاسوب والتذييل وصفحة دخول الإدارة.",
+          "content": "<h2>هوية متسقة على كل شاشة</h2><p>أُضيفت رموز اليدين واسم العلامة والنص السفلي لشعار Best Tercümanlık مع الحفاظ عليها معاً. يتكيف الحجم مع عرض الشاشة وتُستخدم نسخة بيضاء مقروءة على الخلفيات الداكنة. تستند أيقونات المتصفح والشاشة الرئيسية إلى الرمز نفسه.</p>"
+        },
+        "ru": {
+          "title": "Логотип Best Tercümanlık появился на сайте",
+          "subtitle": "",
+          "description": "Логотип с прозрачным фоном используется в мобильной и настольной шапке, подвале и на странице входа в управление.",
+          "content": "<h2>Единый облик на каждом экране</h2><p>Символы рук, название и подпись логотипа Best Tercümanlık сохранены вместе. Размер подстраивается под ширину экрана; на тёмном фоне используется читаемая белая версия. Значки браузера и главного экрана основаны на том же символе.</p>"
+        }
+      }
+    },
+    {
+      "id": "tid-detayli-hizmet-sayfalari",
+      "slug": "hizmet-sayfalari-artik-daha-ayrintili",
+      "title": "Hizmet sayfaları artık daha ayrıntılı",
+      "subtitle": "",
+      "description": "Ana sayfa, Hakkımızda ve Hizmetlerimiz bölümlerine hizmet kapsamı, görüşme biçimleri ve başvuru hazırlığı hakkında yeni açıklamalar eklendi.",
+      "content": "<h2>İhtiyacınıza göre daha yakından bakalım.</h2><p>Bir toplantıya katılmak, bir kurumla görüşmek veya noter randevusuna hazırlanmak farklı hazırlıklar gerektirir. TİD’de hizmet talebinizi görüşmenin amacı, iletişim biçimi ve kurum koşullarıyla birlikte ele alırız. Böylece hangi desteğin gerekli olduğu ve randevu öncesinde nelerin netleştirileceği anlaşılır hale gelir.</p><h2>Talebinizi hazırlamak için dört bilgi.</h2><p>Tüm ayrıntıların baştan kesinleşmiş olması gerekmez. Bildiğiniz bilgileri paylaşmanız, eksik kalan noktaları birlikte belirlememize yardımcı olur.</p><h2>Özen, hazırlık ve açık iletişim.</h2><p>Her talebi aynı kalıba yerleştirmek yerine görüşmenin koşullarını birlikte inceliyoruz. Talep aşamasından randevuya kadar hangi bilginin ne için gerekli olduğunu açıklayan, karşılıklı iletişime dayalı bir süreç hedefliyoruz.</p>",
+      "imageUrl": "/tid/photos/editorial-15-card.webp",
+      "heroImageUrl": "/tid/photos/editorial-15-hero.webp",
+      "homeImageUrl": "",
+      "featured": true,
+      "order": -2,
+      "tags": [],
+      "translations": {
+        "en": {
+          "title": "More detail on our service pages",
+          "subtitle": "",
+          "description": "New explanations of service scope, meeting formats and request preparation have been added to Home, About and Services.",
+          "content": "<h2>A closer look at the support you need.</h2><p>Joining a meeting, visiting an institution or preparing for a notarial appointment involves different preparation. At TİD, we consider your request alongside the purpose, communication method and institutional requirements, making the support needed and the details to clarify beforehand easier to understand.</p><h2>Four details to prepare your request.</h2><p>You do not need every detail confirmed at the start. Share what you know so we can identify the remaining points together.</p><h2>Care, preparation and clear communication.</h2><p>We review the conditions of each appointment together. From the initial request to the meeting, we aim for a collaborative process that explains which information is needed and why.</p>"
+        },
+        "de": {
+          "title": "Mehr Informationen auf unseren Leistungsseiten",
+          "subtitle": "",
+          "description": "Startseite, Über uns und Leistungen wurden um Erläuterungen zu Umfang, Gesprächsformen und Anfragevorbereitung ergänzt.",
+          "content": "<h2>Ein genauerer Blick auf Ihren Bedarf.</h2><p>Ein Meeting, ein Behördengespräch oder ein Notartermin erfordert jeweils andere Vorbereitung. Bei TİD betrachten wir Ziel, Kommunikationsform und Anforderungen der Stelle gemeinsam mit Ihrer Anfrage. So wird klar, welche Unterstützung nötig ist und was vorab zu klären ist.</p><h2>Vier Angaben für Ihre Anfrage.</h2><p>Nicht alles muss schon feststehen. Teilen Sie die bekannten Angaben mit, damit wir offene Punkte gemeinsam klären können.</p><h2>Sorgfalt, Vorbereitung und klare Kommunikation.</h2><p>Wir prüfen die Bedingungen jedes Gesprächs gemeinsam. Von der Anfrage bis zum Termin streben wir einen partnerschaftlichen Ablauf an, der erklärt, welche Angaben wofür benötigt werden.</p>"
+        },
+        "ar": {
+          "title": "صفحات الخدمات أصبحت أكثر تفصيلاً",
+          "subtitle": "",
+          "description": "أُضيفت معلومات عن نطاق الخدمات وطرق اللقاء والتحضير للطلب إلى الرئيسية ومن نحن وخدماتنا.",
+          "content": "<h2>لنلقِ نظرة أقرب على احتياجاتكم.</h2><p>تختلف الاستعدادات بين حضور اجتماع وزيارة مؤسسة والتحضير لموعد لدى كاتب العدل. ندرس طلبكم في TİD مع هدف اللقاء وطريقة التواصل ومتطلبات المؤسسة، لتوضيح الدعم المطلوب وما ينبغي تحديده مسبقاً.</p><h2>أربع معلومات لتحضير طلبكم.</h2><p>لا يلزم تحديد كل التفاصيل منذ البداية. شاركوا ما تعرفونه لنحدد معاً النقاط المتبقية.</p><h2>عناية وتحضير وتواصل واضح.</h2><p>نراجع معكم ظروف كل لقاء. من الطلب الأول إلى الموعد، نسعى إلى عملية تعاونية توضح المعلومات المطلوبة وسبب الحاجة إليها.</p>"
+        },
+        "ru": {
+          "title": "На страницах услуг стало больше информации",
+          "subtitle": "",
+          "description": "На главную страницу и в разделы «О нас» и «Услуги» добавлены сведения об объёме помощи, форматах встреч и подготовке заявки.",
+          "content": "<h2>Подробнее о нужной вам помощи.</h2><p>Участие в совещании, визит в учреждение и нотариальный приём требуют разной подготовки. В TİD мы рассматриваем заявку вместе с целью встречи, способом общения и требованиями учреждения, чтобы уточнить нужную помощь и подготовку.</p><h2>Четыре сведения для подготовки заявки.</h2><p>Не обязательно сразу знать все детали. Сообщите известное, чтобы вместе определить оставшиеся вопросы.</p><h2>Внимание, подготовка и понятное общение.</h2><p>Мы вместе рассматриваем условия каждой встречи. От заявки до приёма стремимся к совместному процессу, в котором понятно, какие сведения нужны и зачем.</p>"
+        }
+      }
+    },
+    {
+      "id": "tid-bes-dilde-yayinlar",
+      "slug": "bes-dilde-haber-ve-rehber-icerikleri-yayinda",
+      "title": "Beş dilde haber ve rehber içerikleri yayında",
+      "subtitle": "",
+      "description": "Türkçe, İngilizce, Almanca, Arapça ve Rusça haberler ile ilk görüşme, çevrim içi tercümanlık ve toplantı hazırlığı rehberlerini keşfedin.",
+      "content": "<h2>İhtiyacınıza göre rehber seçin</h2><p>Blogda; tercüman talebi için paylaşılacak bilgiler, çevrim içi görüşmenin iletişim koşulları ve erişilebilir toplantı hazırlığı anlatılıyor. Üst menüden seçtiğiniz dil, haber ve blog içeriklerine de uygulanır. Yazıların ayrıntılarına ilgili karttan ulaşabilir, talebinizi iletişim formundan yazılı olarak paylaşabilirsiniz.</p>",
+      "imageUrl": "/tid/photos/editorial-13-card.webp",
+      "heroImageUrl": "/tid/photos/editorial-13-hero.webp",
+      "homeImageUrl": "",
+      "featured": true,
+      "order": -1,
+      "tags": [],
+      "translations": {
+        "en": {
+          "title": "News and guides are available in five languages",
+          "subtitle": "",
+          "description": "Explore news and guides to first appointments, online interpreting and meeting preparation in Turkish, English, German, Arabic and Russian.",
+          "content": "<h2>Choose a guide for your needs</h2><p>The blog covers details to share when requesting an interpreter, communication conditions for online appointments and accessible meeting preparation. The language selected in the header also applies to news and blog articles. Open a card for the full article and use the contact form to submit a written request.</p>"
+        },
+        "de": {
+          "title": "Nachrichten und Ratgeber in fünf Sprachen",
+          "subtitle": "",
+          "description": "Entdecken Sie Nachrichten und Ratgeber zu Erstterminen, Online-Dolmetschen und Besprechungsvorbereitung auf Türkisch, Englisch, Deutsch, Arabisch und Russisch.",
+          "content": "<h2>Den passenden Ratgeber auswählen</h2><p>Der Blog erläutert Angaben für Dolmetschanfragen, Kommunikationsbedingungen bei Online-Terminen und die Vorbereitung barrierefreier Besprechungen. Die oben ausgewählte Sprache gilt auch für Nachrichten und Blogbeiträge. Öffnen Sie eine Karte für den ganzen Beitrag und nutzen Sie das Kontaktformular für Ihre schriftliche Anfrage.</p>"
+        },
+        "ar": {
+          "title": "أخبار وأدلة متاحة بخمس لغات",
+          "subtitle": "",
+          "description": "اكتشفوا أخباراً وأدلة للقاء الأول والترجمة عبر الإنترنت وتحضير الاجتماعات بالتركية والإنجليزية والألمانية والعربية والروسية.",
+          "content": "<h2>اختاروا دليلاً يناسب احتياجاتكم</h2><p>تشرح المدونة المعلومات المطلوبة لطلب المترجم وظروف التواصل عبر الإنترنت والتحضير للاجتماعات الميسّرة. تنطبق اللغة المختارة في القائمة أيضاً على الأخبار والمدونة. افتحوا البطاقة لقراءة المقال كاملاً وشاركوا طلبكم كتابةً عبر نموذج التواصل.</p>"
+        },
+        "ru": {
+          "title": "Новости и руководства доступны на пяти языках",
+          "subtitle": "",
+          "description": "Читайте новости и руководства по первой встрече, онлайн-переводу и подготовке совещаний на турецком, английском, немецком, арабском и русском языках.",
+          "content": "<h2>Выберите подходящее руководство</h2><p>В блоге описаны сведения для заявки на переводчика, условия онлайн-общения и подготовка доступных совещаний. Язык в верхнем меню применяется и к новостям, и к статьям. Откройте карточку для полного текста и отправьте письменную заявку через форму связи.</p>"
+        }
+      }
+    }
+  ],
+  "blog": [
+    {
+      "id": "tid-blog-ilk-gorusme",
+      "slug": "ilk-tercumanlik-gorusmenizi-nasil-planlayabilirsiniz",
+      "title": "İlk tercümanlık görüşmenizi nasıl planlayabilirsiniz?",
+      "subtitle": "",
+      "description": "Görüşmenin konusu, tarih, yer ve iletişim ihtiyaçları: ilk talebinizi hazırlamak için pratik bir rehber.",
+      "content": "<p>Tüm ayrıntıların baştan kesinleşmiş olması gerekmez. Bildiğiniz bilgileri paylaşmanız, eksik kalan noktaları birlikte belirlememize yardımcı olur.</p><h2>Görüşmenin konusu</h2><p>Hangi hizmete ihtiyaç duyduğunuzu, görüşmenin amacını ve varsa ilgili kurumun adını belirtin.</p><h2>Tarih ve tahmini süre</h2><p>Tercih ettiğiniz günü, başlangıç saatini ve görüşmenin yaklaşık ne kadar süreceğini paylaşın.</p><h2>Yer veya çevrim içi platform</h2><p>Yüz yüze görüşme için konumu; çevrim içi görüşme için kullanılacak platformu ve katılımcı sayısını belirtin.</p><h2>Hazırlık ve iletişim ihtiyaçları</h2><p>Program, konu başlıkları veya ihtiyaç duyulan düzenlemeleri özetleyin. İlk talepte hassas belge ayrıntılarını paylaşmanız gerekmez.</p><p>Talep göndermek randevunun kesinleştiği anlamına gelmez. Tercüman uygunluğu, hizmet kapsamı ve ücret değerlendirilerek randevu bilgileri sizinle paylaşılır.</p>",
+      "imageUrl": "/tid/photos/editorial-09-card.webp",
+      "heroImageUrl": "/tid/photos/editorial-09-hero.webp",
+      "homeImageUrl": "",
+      "featured": true,
+      "order": 1,
+      "tags": [],
+      "translations": {
+        "en": {
+          "title": "How to plan your first interpreting appointment",
+          "subtitle": "",
+          "description": "Topic, date, location and communication needs: a practical guide to preparing your first request.",
+          "content": "<p>You do not need every detail confirmed at the start. Share what you know so we can identify the remaining points together.</p><h2>Meeting topic</h2><p>State the service you need, the purpose of the meeting and the institution's name if relevant.</p><h2>Date and estimated duration</h2><p>Share your preferred date, start time and approximate meeting duration.</p><h2>Location or online platform</h2><p>For in-person meetings, give the location; for online meetings, state the platform and number of participants.</p><h2>Preparation and communication needs</h2><p>Summarise the agenda, topics or arrangements needed. Sensitive document details are not needed for the initial request.</p><p>Submitting a request does not confirm an appointment. Interpreter availability, scope and fee are reviewed before appointment details are shared with you.</p>"
+        },
+        "de": {
+          "title": "So planen Sie Ihren ersten Dolmetschtermin",
+          "subtitle": "",
+          "description": "Thema, Datum, Ort und Kommunikationsbedarf: ein praktischer Leitfaden für Ihre erste Anfrage.",
+          "content": "<p>Nicht alles muss schon feststehen. Teilen Sie die bekannten Angaben mit, damit wir offene Punkte gemeinsam klären können.</p><h2>Gesprächsthema</h2><p>Nennen Sie die benötigte Leistung, das Gesprächsziel und gegebenenfalls die zuständige Stelle.</p><h2>Datum und geschätzte Dauer</h2><p>Teilen Sie Wunschdatum, Beginn und ungefähre Gesprächsdauer mit.</p><h2>Ort oder Online-Plattform</h2><p>Für Gespräche vor Ort nennen Sie den Ort; für Online-Termine Plattform und Zahl der Teilnehmenden.</p><h2>Vorbereitung und Kommunikationsbedarf</h2><p>Fassen Sie Ablauf, Themen oder benötigte Anpassungen zusammen. Sensible Dokumentdetails sind für die erste Anfrage nicht nötig.</p><p>Eine Anfrage bestätigt noch keinen Termin. Verfügbarkeit, Umfang und Preis werden geprüft, bevor Sie die Termininformationen erhalten.</p>"
+        },
+        "ar": {
+          "title": "كيف تخططون لأول لقاء مع مترجم؟",
+          "subtitle": "",
+          "description": "الموضوع والتاريخ والمكان واحتياجات التواصل: دليل عملي لتحضير طلبكم الأول.",
+          "content": "<p>لا يلزم تحديد كل التفاصيل منذ البداية. شاركوا ما تعرفونه لنحدد معاً النقاط المتبقية.</p><h2>موضوع اللقاء</h2><p>حددوا الخدمة المطلوبة وهدف اللقاء واسم المؤسسة المعنية إن وُجدت.</p><h2>التاريخ والمدة المتوقعة</h2><p>شاركوا اليوم المفضل ووقت البداية والمدة التقريبية للقاء.</p><h2>المكان أو المنصة الإلكترونية</h2><p>للقاء الحضوري، حددوا الموقع؛ وللقاء عبر الإنترنت، اذكروا المنصة وعدد المشاركين.</p><h2>احتياجات التحضير والتواصل</h2><p>لخصوا البرنامج أو المواضيع أو الترتيبات المطلوبة. لا يلزم إرسال تفاصيل الوثائق الحساسة في الطلب الأول.</p><p>إرسال الطلب لا يعني تأكيد الموعد. تُراجع إمكانية توافر المترجم ونطاق الخدمة والتكلفة قبل مشاركة تفاصيل الموعد معكم.</p>"
+        },
+        "ru": {
+          "title": "Как спланировать первую встречу с переводчиком?",
+          "subtitle": "",
+          "description": "Тема, дата, место и условия общения: практическое руководство для первой заявки.",
+          "content": "<p>Не обязательно сразу знать все детали. Сообщите известное, чтобы вместе определить оставшиеся вопросы.</p><h2>Тема встречи</h2><p>Укажите нужную услугу, цель встречи и название учреждения, если оно известно.</p><h2>Дата и примерная длительность</h2><p>Сообщите желаемую дату, время начала и примерную длительность встречи.</p><h2>Место или онлайн-платформа</h2><p>Для очной встречи укажите место; для онлайн-встречи — платформу и число участников.</p><h2>Подготовка и условия общения</h2><p>Кратко опишите программу, темы и нужные условия. Для первой заявки не нужны чувствительные данные документов.</p><p>Отправка заявки не означает подтверждения записи. Сначала оцениваются доступность переводчика, объём услуги и стоимость, затем вам сообщаются детали.</p>"
+        }
+      }
+    },
+    {
+      "id": "tid-blog-cevrim-ici",
+      "slug": "cevrim-ici-isaret-dili-gorusmesine-hazirlik",
+      "title": "Çevrim içi işaret dili görüşmesine hazırlık",
+      "subtitle": "",
+      "description": "Kamera, ışık, bağlantı ve görüşme programını önceden değerlendirerek çevrim içi iletişimi daha kolay planlayın.",
+      "content": "<h2>Çevrim içi tercümanlık</h2><p>Platform bağlantısı ve görüşme programı önceden paylaşılır. Kamera açısı, yeterli ışık, ekran düzeni ve kesintisiz bağlantı değerlendirilir; ihtiyaca göre görüşme öncesi kısa bir teknik kontrol planlanabilir.</p><h2>Görünürlük ve konuşma sırası</h2><p>Kamera yüzünüzü ve ellerinizi birlikte gösterecek biçimde konumlandırılmalıdır. Güçlü bir ışık kaynağının arkanızda kalması görüntüyü zorlaştırabilir. Katılımcıların sırayla konuşması, tercümanın sabit bir ekran alanında görünmesi ve bağlantı sorunlarında nasıl devam edileceğinin önceden paylaşılması görüşmeyi takip etmeyi kolaylaştırır.</p><h2>Hazırlığı görüşmeden önce yaparız</h2><p>Konu, program, katılımcılar ve ilgili materyaller önceden paylaşılırsa görüşmenin bağlamı daha iyi anlaşılır. Hazırlık için gereken ayrıntıları talebinize göre birlikte belirleriz.</p><h2>Kapsamı birlikte netleştiririz</h2><p>Hizmet türü, süre, konum, ücret ve randevu koşulları görüşme öncesinde paylaşılır. Program değiştiğinde planın yeniden değerlendirilmesi için bize bilgi verebilirsiniz.</p>",
+      "imageUrl": "/tid/photos/editorial-14-card.webp",
+      "heroImageUrl": "/tid/photos/editorial-14-hero.webp",
+      "homeImageUrl": "",
+      "featured": false,
+      "order": 2,
+      "tags": [],
+      "translations": {
+        "en": {
+          "title": "Preparing for an online sign language appointment",
+          "subtitle": "",
+          "description": "Plan online communication more easily by reviewing your camera, lighting, connection and agenda beforehand.",
+          "content": "<h2>Online interpreting</h2><p>The meeting link and agenda are shared in advance. Camera angle, adequate lighting, screen layout and a stable connection are reviewed; a brief technical check can be planned if needed.</p><h2>Visibility and speaking turns</h2><p>Position the camera to show your face and hands together. A strong light source behind you can make the image hard to see. Taking turns, keeping the interpreter visible in a fixed screen area and agreeing beforehand how to continue if the connection fails make the conversation easier to follow.</p><h2>We prepare before the meeting</h2><p>Sharing the topic, agenda, participants and relevant materials beforehand helps us understand the context. We identify the preparation details together according to your request.</p><h2>We clarify the scope together</h2><p>Service type, duration, location, fee and appointment conditions are shared before the meeting. If your schedule changes, let us know so we can review the plan.</p>"
+        },
+        "de": {
+          "title": "Vorbereitung auf ein Online-Gespräch in Gebärdensprache",
+          "subtitle": "",
+          "description": "Planen Sie Online-Kommunikation leichter, indem Sie Kamera, Licht, Verbindung und Ablauf vorab prüfen.",
+          "content": "<h2>Online-Dolmetschen</h2><p>Link und Ablauf werden vorab geteilt. Kamerawinkel, ausreichendes Licht, Bildschirmanordnung und stabile Verbindung werden geprüft; bei Bedarf lässt sich ein kurzer Technikcheck planen.</p><h2>Sichtbarkeit und Redereihenfolge</h2><p>Positionieren Sie die Kamera so, dass Gesicht und Hände gemeinsam sichtbar sind. Starkes Gegenlicht kann das Bild erschweren. Nacheinander sprechen, die dolmetschende Person in einem festen Bildschirmbereich sichtbar halten und das Vorgehen bei Verbindungsproblemen vorab absprechen erleichtert das Verständnis.</p><h2>Wir bereiten uns vor dem Gespräch vor</h2><p>Thema, Ablauf, Teilnehmende und relevante Materialien vorab zu teilen hilft, den Kontext zu verstehen. Die nötigen Details klären wir passend zu Ihrer Anfrage.</p><h2>Wir klären den Umfang gemeinsam</h2><p>Leistungsart, Dauer, Ort, Preis und Terminbedingungen werden vorab mitgeteilt. Bei Änderungen informieren Sie uns, damit wir die Planung prüfen können.</p>"
+        },
+        "ar": {
+          "title": "التحضير للقاء بلغة الإشارة عبر الإنترنت",
+          "subtitle": "",
+          "description": "خططوا لتواصل أسهل عبر الإنترنت بمراجعة الكاميرا والإضاءة والاتصال والبرنامج مسبقاً.",
+          "content": "<h2>الترجمة عبر الإنترنت</h2><p>يُشارك رابط اللقاء وبرنامجه مسبقاً. تُقيّم زاوية الكاميرا والإضاءة وترتيب الشاشة واستقرار الاتصال، ويمكن التخطيط لفحص تقني قصير عند الحاجة.</p><h2>وضوح الرؤية وأدوار الحديث</h2><p>ضعوا الكاميرا بحيث تُظهر الوجه واليدين معاً. قد يصعب الضوء القوي خلفكم وضوح الصورة. يساعد الحديث بالتناوب وإبقاء المترجم في مساحة ثابتة على الشاشة والاتفاق مسبقاً على التعامل مع انقطاع الاتصال على متابعة اللقاء.</p><h2>نستعد قبل اللقاء</h2><p>تساعد مشاركة الموضوع والبرنامج والمشاركين والمواد ذات الصلة مسبقاً على فهم السياق. نحدد معكم تفاصيل التحضير بحسب طلبكم.</p><h2>نوضح نطاق الخدمة معكم</h2><p>تُوضح الخدمة والمدة والموقع والتكلفة وشروط الموعد مسبقاً. عند تغيير البرنامج، أخبرونا لنتمكن من مراجعة الخطة.</p>"
+        },
+        "ru": {
+          "title": "Подготовка к онлайн-встрече с переводом на жестовый язык",
+          "subtitle": "",
+          "description": "Заранее проверьте камеру, освещение, связь и программу, чтобы удобнее спланировать онлайн-общение.",
+          "content": "<h2>Онлайн-перевод</h2><p>Ссылка и программа встречи передаются заранее. Проверяются ракурс камеры, освещение, расположение окон и стабильность связи; при необходимости планируется короткая техническая проверка.</p><h2>Видимость и очередность выступлений</h2><p>Расположите камеру так, чтобы были видны лицо и руки. Яркий свет за спиной ухудшает видимость. Говорите по очереди, закрепите окно переводчика на экране и заранее договоритесь о действиях при сбое связи — так встречу легче воспринимать.</p><h2>Готовимся заранее</h2><p>Тема, программа, участники и материалы, переданные заранее, помогают понять контекст. Нужные детали подготовки определяем вместе по вашей заявке.</p><h2>Вместе согласуем объём услуги</h2><p>Вид услуги, длительность, место, стоимость и условия согласуются до встречи. При изменении программы сообщите нам для пересмотра плана.</p>"
+        }
+      }
+    },
+    {
+      "id": "tid-blog-erisilebilir-toplanti",
+      "slug": "erisilebilir-toplanti-icin-hazirlik-rehberi",
+      "title": "Erişilebilir toplantı için hazırlık rehberi",
+      "subtitle": "",
+      "description": "Programı, materyalleri, oturma düzenini ve katılımcıların iletişim tercihlerini birlikte düşünün.",
+      "content": "<h2>Toplantılar ve etkinlikler</h2><p>İş görüşmeleri, ekip toplantıları, sunumlar ve etkinlikler için erişilebilir iletişim planlanabilir. Program, konuşmacı sayısı ve kullanılacak materyaller hazırlık sürecinin önemli parçalarıdır.</p><h2>İletişim tercihinizi dinleriz</h2><p>Talebinizi yazılı olarak paylaşabilir, görüşmede ihtiyaç duyduğunuz düzenlemeleri belirtebilirsiniz. İletişim biçimini ve görüşme ortamını bu bilgilerle birlikte değerlendiririz.</p><h2>Hazırlığı görüşmeden önce yaparız</h2><p>Konu, program, katılımcılar ve ilgili materyaller önceden paylaşılırsa görüşmenin bağlamı daha iyi anlaşılır. Hazırlık için gereken ayrıntıları talebinize göre birlikte belirleriz.</p><h2>Yüz yüze tercümanlık</h2><p>Görüşmenin yapılacağı adres, katılımcı sayısı ve tahmini süreyi paylaşın. Oturma düzeni, ışık ve görüş alanı gibi ayrıntılar, katılımcıların birbirini ve tercümanı rahatça takip edebilmesi için planlamaya dahil edilir.</p><h2>Paylaşılan bilgilere özen gösteririz</h2><p>İlk başvuruda görüşmeyi planlamaya yetecek genel bilgileri paylaşmanız yeterlidir. Kimlik numarası veya hassas belge ayrıntıları yerine işlem türünü ve ihtiyaç duyduğunuz desteği açıklayabilirsiniz.</p>",
+      "imageUrl": "/tid/photos/editorial-02-card.webp",
+      "heroImageUrl": "/tid/photos/editorial-02-hero.webp",
+      "homeImageUrl": "",
+      "featured": false,
+      "order": 3,
+      "tags": [],
+      "translations": {
+        "en": {
+          "title": "A preparation guide for accessible meetings",
+          "subtitle": "",
+          "description": "Consider the agenda, materials, seating and participants’ communication preferences together.",
+          "content": "<h2>Meetings and events</h2><p>Accessible communication can be planned for interviews, team meetings, presentations and events. The agenda, number of speakers and materials are important parts of preparation.</p><h2>We listen to your communication preferences</h2><p>You can submit your request in writing and describe the arrangements you need. We consider your preferred communication method and meeting environment alongside these details.</p><h2>We prepare before the meeting</h2><p>Sharing the topic, agenda, participants and relevant materials beforehand helps us understand the context. We identify the preparation details together according to your request.</p><h2>In-person interpreting</h2><p>Share the address, participant count and expected duration. Seating, lighting and sightlines are considered so participants can comfortably follow one another and the interpreter.</p><h2>We handle shared information with care</h2><p>General information sufficient to plan the meeting is enough for the initial request. Describe the procedure and support you need rather than sending identity numbers or sensitive document details.</p>"
+        },
+        "de": {
+          "title": "Vorbereitungsleitfaden für barrierefreie Besprechungen",
+          "subtitle": "",
+          "description": "Berücksichtigen Sie Ablauf, Materialien, Sitzordnung und Kommunikationswünsche der Teilnehmenden gemeinsam.",
+          "content": "<h2>Besprechungen und Veranstaltungen</h2><p>Für Bewerbungsgespräche, Teamsitzungen, Präsentationen und Veranstaltungen lässt sich barrierefreie Kommunikation planen. Ablauf, Zahl der Sprechenden und Materialien gehören zur Vorbereitung.</p><h2>Wir beachten Ihre Kommunikationswünsche</h2><p>Sie können Ihre Anfrage schriftlich stellen und benötigte Anpassungen nennen. Diese Angaben fließen in die Planung von Kommunikationsform und Gesprächsumgebung ein.</p><h2>Wir bereiten uns vor dem Gespräch vor</h2><p>Thema, Ablauf, Teilnehmende und relevante Materialien vorab zu teilen hilft, den Kontext zu verstehen. Die nötigen Details klären wir passend zu Ihrer Anfrage.</p><h2>Dolmetschen vor Ort</h2><p>Teilen Sie Adresse, Zahl der Teilnehmenden und voraussichtliche Dauer mit. Sitzordnung, Licht und Sichtachsen werden berücksichtigt, damit alle einander und der dolmetschenden Person gut folgen können.</p><h2>Wir gehen sorgsam mit Informationen um</h2><p>Für die erste Anfrage genügen allgemeine Angaben zur Planung. Beschreiben Sie Vorgang und Unterstützungsbedarf, statt Identifikationsnummern oder sensible Dokumentdetails zu senden.</p>"
+        },
+        "ar": {
+          "title": "دليل التحضير للاجتماعات الميسّرة",
+          "subtitle": "",
+          "description": "فكروا معاً في البرنامج والمواد وترتيب الجلوس وتفضيلات المشاركين في التواصل.",
+          "content": "<h2>الاجتماعات والفعاليات</h2><p>يمكن تخطيط تواصل ميسّر لمقابلات العمل واجتماعات الفرق والعروض والفعاليات. البرنامج وعدد المتحدثين والمواد المستخدمة عناصر مهمة في التحضير.</p><h2>نستمع إلى تفضيلاتكم في التواصل</h2><p>يمكنكم إرسال الطلب كتابةً وذكر الترتيبات المطلوبة. نأخذ هذه التفاصيل في الاعتبار عند تقييم طريقة التواصل وبيئة اللقاء.</p><h2>نستعد قبل اللقاء</h2><p>تساعد مشاركة الموضوع والبرنامج والمشاركين والمواد ذات الصلة مسبقاً على فهم السياق. نحدد معكم تفاصيل التحضير بحسب طلبكم.</p><h2>الترجمة الحضورية</h2><p>شاركوا العنوان وعدد المشاركين والمدة المتوقعة. يشمل التخطيط ترتيب الجلوس والإضاءة ومجال الرؤية ليتمكن المشاركون من متابعة بعضهم والمترجم بوضوح.</p><h2>نتعامل بعناية مع المعلومات المشتركة</h2><p>تكفي في الطلب الأول معلومات عامة تساعد على تخطيط اللقاء. اشرحوا نوع المعاملة والدعم المطلوب بدلاً من إرسال أرقام الهوية أو تفاصيل الوثائق الحساسة.</p>"
+        },
+        "ru": {
+          "title": "Руководство по подготовке доступных совещаний",
+          "subtitle": "",
+          "description": "Вместе продумайте программу, материалы, расположение мест и предпочтения участников в общении.",
+          "content": "<h2>Совещания и мероприятия</h2><p>Доступное общение можно организовать для собеседований, совещаний, презентаций и мероприятий. Программа, число выступающих и материалы важны для подготовки.</p><h2>Учитываем ваши предпочтения в общении</h2><p>Заявку можно отправить письменно и указать необходимые условия. Эти сведения учитываются при выборе способа общения и обстановки встречи.</p><h2>Готовимся заранее</h2><p>Тема, программа, участники и материалы, переданные заранее, помогают понять контекст. Нужные детали подготовки определяем вместе по вашей заявке.</p><h2>Очный перевод</h2><p>Сообщите адрес, число участников и примерную длительность. Расположение мест, освещение и обзор учитываются, чтобы участники хорошо видели друг друга и переводчика.</p><h2>Бережно относимся к переданной информации</h2><p>Для первой заявки достаточно общих сведений для планирования. Опишите процедуру и нужную помощь без отправки номеров удостоверений или чувствительных деталей документов.</p>"
+        }
+      }
+    }
+  ]
+}

@@ -135,6 +135,15 @@ Yeminli tercüman ve noter sayfalarında projede bulunan, üzerinde eski marka y
 
 ## Doğrulama
 
+### Haber ve blog yayın akışı
+
+- Aktif haber ve blog kayıtları `haberler` koleksiyonundadır; `kind: news` / `kind: blog` ayrımı kullanılır. `isActive: true` olmayan kayıtlar yayınlanmaz.
+- Ana sayfa, arşivler ve yazı ayrıntıları ilk yanıtında Firestore'dan okunan içerikleri gösterir. Sunucu yalnızca herkese açık aktif içerik sorgusunu kullanır; yönetici yetkisi kullanmaz. Okuma 5 saniyeyle sınırlıdır ve yayın durumu istekler arasında önbelleğe alınmaz.
+- Tarayıcıdaki canlı abonelik yönetim paneli değişikliklerini yansıtmaya devam eder. İlk bağlantı gecikir veya başarısız olursa sunucudan gelen kartlar korunur; sunucunun doğruladığı boş sonuç, yayından kaldırılan kayıtları gizler.
+- `docs/tid-editorial-content.json`: beş dilde 3 haber ve 3 blog. Bu Firebase projesinde daha önce kullanılmayan 12 özgün TİD fotoğrafı kapak/hero alanlarına atanmıştır; ana sayfa için ayrılmış farklı fotoğraflar otomatik seçilir.
+- Ön kontrol: `npm run seed:tid -- --file docs/tid-editorial-content.json`.
+- Veritabanına ekleme: `npm run seed:tid -- --file docs/tid-editorial-content.json --apply`. Yalnızca eksik belge kimliklerini oluşturur; mevcut kayıtları değiştirmez. Dosya belirtilmezse önceki haber/galeri başlangıç seti kullanılır.
+
 - Üretim derlemesi (`npm run build`) başarılı.
 - TypeScript (`npx tsc --noEmit --incremental false`) başarılı.
 - Yeni TİD bileşenleri, yeni sayfalar, mesaj kayıt akışı, SEO/site haritası ve yapılandırma dosyaları için ESLint kontrolü başarılı. Tüm proje kontrolünde eski modüllerden gelen 6 hata ve 2 uyarı kalıyor.

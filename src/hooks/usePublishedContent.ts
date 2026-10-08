@@ -1,10 +1,10 @@
 "use client";
-import { useSyncExternalStore } from "react";
+import { useMemo, useSyncExternalStore } from "react";
 import { collection, onSnapshot, query, where } from "firebase/firestore";
 import { db } from "@/lib/firebase";
 import { normalizeArticle, sortArticles, type Article } from "@/lib/editorial";
-type Snapshot = { articles: Article[]; loading: boolean; error: boolean };
-const initial: Snapshot = { articles: [], loading: true, error: false };
+import { resolvePublishedSnapshot, type PublishedSnapshot as Snapshot } from "@/lib/published-content";
+const initial: Snapshot = { articles: [], loading: true, error: false, received: false };
 let snapshot = initial;
 let disconnect: (() => void) | undefined;
 let timeout: ReturnType<typeof setTimeout> | undefined;
@@ -32,11 +32,11 @@ function connect() {
       );
       if (result.metadata.fromCache && !articles.length) return;
       clearTimeout(timeout);
-      emit({ articles, loading: false, error: false });
+      emit({ articles, loading: false, error: false, received: snapshot.received || !result.metadata.fromCache });
     },
     () => {
       clearTimeout(timeout);
-      emit({ articles: [], loading: false, error: true });
+      emit({ ...snapshot, loading: false, error: true });
     },
   );
 }
@@ -52,11 +52,17 @@ function subscribe(listener: () => void) {
     }
   };
 }
-export function usePublishedContent() {
+export function usePublishedContent(initialArticles?: Article[]) {
+  const bootstrap = useMemo<Snapshot>(() => ({
+    articles: initialArticles || [],
+    loading: initialArticles === undefined,
+    error: false,
+    received: false,
+  }), [initialArticles]);
   const value = useSyncExternalStore(
     subscribe,
     () => snapshot,
-    () => initial,
+    () => bootstrap,
   );
-  return { ...value, retry: connect };
+  return { ...resolvePublishedSnapshot(value, initialArticles), retry: connect };
 }

@@ -7,26 +7,32 @@ import { getFirestore, doc, getDoc, runTransaction, terminate } from "firebase/f
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 nextEnv.loadEnvConfig(root);
-const seed = JSON.parse(await readFile(path.join(root, "docs/tid-launch-content.json"), "utf8"));
+const fileFlag = process.argv.indexOf("--file");
+if (fileFlag !== -1 && (!process.argv[fileFlag + 1] || process.argv[fileFlag + 1].startsWith("--")))
+  throw new Error("--file sonrasında içerik dosyasını belirtin.");
+const seedFile = fileFlag === -1 ? "docs/tid-launch-content.json" : process.argv[fileFlag + 1];
+const seed = JSON.parse(await readFile(path.resolve(root, seedFile), "utf8"));
 const projectId = process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID;
 if (projectId !== seed.projectId) throw new Error(`Hedef Firebase projesi ${seed.projectId} olmalı.`);
 const now = new Date().toISOString();
-const records = [
-  ...seed.news.map(({ id, imageKey, ...copy }, index) => ({
+const articles = (items, kind) => (items || []).map(({ id, imageKey, ...copy }, index) => ({
     collection: "haberler", id,
     data: {
-      ...copy, kind: "news", isActive: true, order: index + 1,
-      imageUrl: `/tid/photos/tid-news-${imageKey}-card.webp`,
-      heroImageUrl: `/tid/photos/tid-news-${imageKey}-hero.webp`,
-      homeImageUrl: `/tid/photos/tid-news-${imageKey}-home.webp`,
+      ...copy, kind, isActive: true, order: copy.order ?? index + 1,
+      imageUrl: copy.imageUrl || `/tid/photos/tid-${kind}-${imageKey}-card.webp`,
+      heroImageUrl: copy.heroImageUrl || `/tid/photos/tid-${kind}-${imageKey}-hero.webp`,
+      homeImageUrl: copy.homeImageUrl ?? (imageKey ? `/tid/photos/tid-${kind}-${imageKey}-home.webp` : ""),
       createdAt: seed.publicationDate, updatedAt: now, imageType: "generated-editorial",
     },
-  })),
-  ...seed.galleryCategories.map(({ id, ...category }, index) => ({
+  }));
+const records = [
+  ...articles(seed.news, "news"),
+  ...articles(seed.blog, "blog"),
+  ...(seed.galleryCategories || []).map(({ id, ...category }, index) => ({
     collection: "gallery_categories", id,
     data: { ...category, order: index + 1, isActive: true, createdAt: seed.publicationDate, updatedAt: now },
   })),
-  ...seed.galleryItems.map(({ id, ...item }, index) => ({
+  ...(seed.galleryItems || []).map(({ id, ...item }, index) => ({
     collection: "gallery_items", id,
     data: {
       ...item, imageUrl: `/tid/photos/${id}.webp`, thumbnailUrl: "",
@@ -38,7 +44,7 @@ const records = [
 const imageUrls = records.flatMap(({ data }) => [data.imageUrl, data.heroImageUrl, data.homeImageUrl].filter(Boolean));
 if (new Set(imageUrls).size !== imageUrls.length) throw new Error("Görseller farklı olmalı.");
 await Promise.all(imageUrls.map((url) => access(path.join(root, "public", url))));
-const summary = { projectId, news: seed.news.length, galleryCategories: seed.galleryCategories.length, galleryImages: seed.galleryItems.length, uniqueImages: imageUrls.length };
+const summary = { projectId, source: seedFile, news: seed.news?.length || 0, blog: seed.blog?.length || 0, galleryCategories: seed.galleryCategories?.length || 0, galleryImages: seed.galleryItems?.length || 0, uniqueImages: imageUrls.length };
 if (!process.argv.includes("--apply")) {
   console.log(JSON.stringify({ mode: "dry-run", ...summary, note: "Yazmak için --apply kullanın. Var olan kayıtlar korunur." }, null, 2));
 } else {
