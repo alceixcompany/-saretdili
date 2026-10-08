@@ -75,9 +75,12 @@ export async function generateMetadata(): Promise<Metadata> {
         }
       : undefined,
     icons: {
-      icon: [{ url: "/tid/icon.svg", type: "image/svg+xml" }],
-      shortcut: "/tid/icon.svg",
-      apple: [{ url: "/tid/icon.svg", type: "image/svg+xml" }],
+      icon: [
+        { url: "/tid/brand/best-icon.png", type: "image/png", sizes: "64x64" },
+        { url: "/tid/brand/best-app-icon.png", type: "image/png", sizes: "192x192" },
+      ],
+      shortcut: "/tid/brand/best-icon.png",
+      apple: [{ url: "/tid/brand/best-apple-icon.png", type: "image/png", sizes: "180x180" }],
     },
     openGraph: {
       title: activeSite.title,

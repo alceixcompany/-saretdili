@@ -127,7 +127,7 @@ Yeni proje içerikleri `docs/tid-launch-content.json` içinde bulunur: beş dild
 Ana görsel yerleşik **imagegen** aracıyla üretildi; özgün çıktı korunarak WebP kopyası projeye eklendi:
 
 - `public/tid/communication.webp` — 1536 × 1024, yaklaşık 166 KB.
-- `public/tid/icon.svg` — kodla hazırlanmış TİD marka simgesi.
+- `public/tid/brand/best-logo.png` ve `.webp` — kullanıcının Best Tercümanlık logosunun şeffaf sürümü; başlık, alt bilgi ve yönetim girişinde kullanılır. Aynı simgeden favicon ve Apple ikonları türetilmiştir. Düzenleme talimatı ve kaynak kaydı: `docs/best-logo-assets.json`.
 
 Üretim promptu: “Use case: photorealistic-natural. Create one high quality editorial photograph for the website of TİD, a Turkish sign language interpretation service. Landscape 3:2 composition. Two adult Turkish women sitting facing one another at a light oak table in a bright welcoming contemporary studio, conversing using expressive hand gestures in the context of sign language interpretation. Woman on right wears a soft terracotta orange sweater and shoulder-length dark wavy hair, woman on left in a pale cream blouse seen in three quarter profile. Both full hands clearly visible anatomically natural, relaxed sincere engaged expressions. Medium shot from waist up, natural window light, warm neutral plaster walls, subtly blurred olive plant in background, tasteful analog photographic texture, gentle shadows, calm premium editorial aesthetic, daylight. Fill frame with the two people, no text, no logos, no watermark, no illustrations, no inset graphics. This is a general depiction of communication, not an educational demonstration of a particular sign. Save the generated asset and return the local saved file path for website use.”
 

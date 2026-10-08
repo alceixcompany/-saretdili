@@ -63,11 +63,7 @@ const AdminLogin = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/72 via-black/5 to-black/30" />
 
         <div className="relative flex items-center gap-3">
-          <Image src="/tid/icon.svg" alt="TİD Tercüme" width={52} height={52} className="h-12 w-12 rounded-sm object-contain" />
-          <div>
-            <p className="text-sm font-semibold tracking-[0.1em]">TİD</p>
-            <p className="mt-1 text-[10px] tracking-[0.2em] text-white/65">TERCÜME</p>
-          </div>
+          <Image src="/tid/brand/best-logo.webp" alt="Best Tercümanlık" width={1341} height={801} sizes="200px" className="h-auto w-[200px] object-contain brightness-0 invert" />
         </div>
 
         <div className="relative max-w-xl">
@@ -90,11 +86,7 @@ const AdminLogin = () => {
           className="w-full max-w-md"
         >
           <div className="mb-10 flex items-center gap-3 lg:hidden">
-            <Image src="/tid/icon.svg" alt="TİD Tercüme" width={48} height={48} className="h-11 w-11 rounded-sm object-contain" priority />
-            <div>
-              <p className="text-sm font-semibold tracking-[0.1em]">TİD</p>
-              <p className="mt-0.5 text-[10px] tracking-[0.2em] text-[#8d6a30]">TERCÜME</p>
-            </div>
+            <Image src="/tid/brand/best-logo.webp" alt="Best Tercümanlık" width={1341} height={801} sizes="160px" className="h-auto w-40 object-contain" priority />
           </div>
 
           <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-[#171614]/10 bg-white text-[#8d6a30] shadow-sm">

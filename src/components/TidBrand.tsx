@@ -1,24 +1,20 @@
-import { Text } from "@/components/LanguageProvider";
+import Image from "next/image";
 import { LocalizedLink as Link } from "@/components/LanguageProvider";
 export default function TidBrand({ light = false }: { light?: boolean }) {
   return (
     <Link
       href="/"
       className={`tid-brand ${light ? "tid-brand-light" : ""}`}
-      aria-label="TİD ana sayfa"
+      aria-label="Best Tercümanlık"
     >
-      <span className="tid-brand-mark" aria-hidden="true">
-        <i />
-        <i />
-        <i />
-        <i />
-      </span>
-      <span className="tid-brand-name">
-        <Text>{"TİD"}</Text>
-        <span>
-          <Text>{"İŞARET DİLİ & TERCÜMANLIK"}</Text>
-        </span>
-      </span>
+      <Image
+        src="/tid/brand/best-logo.webp"
+        alt="Best Tercümanlık — İşaret Dili & Tercümanlık"
+        width={1341}
+        height={801}
+        className="tid-brand-image"
+        sizes={light ? "208px" : "(max-width: 1200px) 126px, 172px"}
+      />
     </Link>
   );
 }

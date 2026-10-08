@@ -62,7 +62,7 @@ export const defaultSiteConfig: SiteConfig = {
   },
   geo: { latitude: 0, longitude: 0 },
   defaultImage: tidImages.socialPreview,
-  logo: "/tid/icon.svg",
+  logo: "/tid/brand/best-logo.png",
   locationName: "Türkiye",
   title: "TİD | Türk İşaret Dili, Yeminli Tercüman ve Noter",
   titleTemplate: "%s | TİD",

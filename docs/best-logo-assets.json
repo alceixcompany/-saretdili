@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "background-extraction",
+  "prompt": "Use case: background-extraction. Input image 1 is the edit target: the supplied Best Tercümanlık logo. Remove ONLY the white/off-white background and the white negative spaces between the letters and hands, making them genuinely transparent alpha. Preserve the exact logo design, hand shapes, letter shapes, original navy and warm copper colors, proportions and all three original text lines exactly: 'Best', 'TERCÜMANLIK', 'İşaret Dili & Tercümanlık'. Do not redraw, redesign, change the spelling, add any elements, shadows or backgrounds. Output a clean sharp high-resolution transparent PNG, tightly framed around the complete existing logo with small equal clear margins, suitable for a website. All letter counters and open white areas must also be transparent. Keep the complete lower tagline and both copper horizontal lines.",
+  "reference": "User-supplied Best Tercümanlık logo",
+  "generated_source": "/Users/umid/.codex/generated_images/01a10173-b99a-7981-9552-503799c3aa61/exec-89fc6712-78eb-4d2c-be19-d25cac20007f.png",
+  "outputs": [
+    "public/tid/brand/best-logo.png",
+    "public/tid/brand/best-logo.webp",
+    "public/tid/brand/best-icon.png",
+    "public/tid/brand/best-apple-icon.png",
+    "public/tid/brand/best-app-icon.png"
+  ],
+  "processing": "Crop transparent outer margins, lossless WebP conversion, and crop/resize the original B hand symbol for browser icons. Preserve generated alpha. CSS provides a white monochrome logo on dark backgrounds."
+}
