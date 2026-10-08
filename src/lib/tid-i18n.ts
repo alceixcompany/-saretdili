@@ -394,13 +394,6 @@ export const tidTranslations: Record<
     "للتواصل الكتابي",
     "Для письменного общения",
   ],
-  "Telefon ve WhatsApp numaraları şu anda geçici olarak gösterilmektedir. Randevu talebinizi form üzerinden iletebilirsiniz.":
-    [
-      "The phone and WhatsApp numbers are temporary placeholders. Please use the form to request an appointment.",
-      "Telefon- und WhatsApp-Nummern sind derzeit Platzhalter. Bitte nutzen Sie das Formular für Ihre Terminanfrage.",
-      "أرقام الهاتف وواتساب مؤقتة حالياً. يمكنكم طلب موعد عبر النموذج.",
-      "Номера телефона и WhatsApp пока временные. Подайте заявку через форму.",
-    ],
   "Tercümanlık talebiniz": [
     "Your interpreting request",
     "Ihre Dolmetschanfrage",

@@ -64,7 +64,7 @@ Firestore kuralları, mevcut yönetici giriş bilgileri ve canlı veriler bu tas
 - Ana sayfa; giriş, hizmet kartları, yaklaşım, üç adımlı süreç, açılabilir sık sorulan sorular, haberler, blog ve iletişim çağrısı içeriyor.
 - Hizmet listesi, üç hizmet ayrıntısı, hakkımızda ve iletişim sayfaları aynı tasarım diliyle hazırlandı.
 - Yönetim panelinin görünen marka adı ve logosu TİD olarak güncellendi; mevcut modüller ve kimlik doğrulama akışı korundu.
-- Telefon ve WhatsApp: **99999999**. İletişim sayfasında bunların geçici numaralar olduğu belirtiliyor. Doğrulanmamış adres ve e-posta yayımlanmıyor.
+- Telefon: **0534 642 04 76**; WhatsApp: **0545 189 26 65**. İletişim sayfası ve footer bu numaralara doğrudan arama ve WhatsApp bağlantıları sunuyor. Doğrulanmamış adres ve e-posta yayımlanmıyor.
 - Yeni hizmet metinlerinde doğrulanmamış deneyim yılı, sertifika, müşteri sayısı veya kurum referansı kullanılmıyor. Noter işlemlerinin koşulları ilgili noterlik ile teyit edilmesi gereken bilgiler olarak sunuluyor.
 
 ### Sayfalar

@@ -63,12 +63,24 @@ export default function Footer() {
             <h2>
               <Text>{"Birlikte planlayalım"}</Text>
             </h2>
-            <a className="tid-footer-phone" href={`tel:${siteConfig.phone}`}>
+            <p>
+              <Text>{"TELEFON"}</Text>
+            </p>
+            <a className="tid-footer-phone" href={`tel:${siteConfig.phone}`} dir="ltr">
               {siteConfig.phoneDisplay} <FiArrowUpRight />
             </a>
             <p>
-              <Text>{"Telefon & WhatsApp"}</Text>
+              WhatsApp
             </p>
+            <a
+              className="tid-footer-phone"
+              href={`https://wa.me/${siteConfig.whatsapp.replace("+", "")}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              dir="ltr"
+            >
+              {siteConfig.whatsappDisplay} <FiArrowUpRight />
+            </a>
             <Link href="/iletisim" className="tid-text-link">
               <Text>{"Yazılı talep oluşturun "}</Text>
               <FiArrowUpRight />

@@ -122,7 +122,7 @@ export default function TidContact({
                 <span>
                   <Text>{"TELEFON"}</Text>
                 </span>
-                <strong>{siteConfig.phoneDisplay}</strong>
+                <strong dir="ltr">{siteConfig.phoneDisplay}</strong>
               </div>
             </a>
             <a
@@ -136,20 +136,13 @@ export default function TidContact({
                 <span>
                   <Text>{"WHATSAPP"}</Text>
                 </span>
-                <strong>{siteConfig.whatsappDisplay}</strong>
+                <strong dir="ltr">{siteConfig.whatsappDisplay}</strong>
                 <small>
                   <Text>{"Yazılı iletişim için"}</Text>
                 </small>
               </div>
               <FiArrowUpRight />
             </a>
-            <p className="tid-contact-notice">
-              <Text>
-                {
-                  "Telefon ve WhatsApp numaraları şu anda geçici olarak gösterilmektedir. Randevu talebinizi form üzerinden iletebilirsiniz."
-                }
-              </Text>
-            </p>
           </aside>
           <form
             className="tid-form"
