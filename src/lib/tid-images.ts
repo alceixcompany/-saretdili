@@ -1,3 +1,4 @@
+import { domainProfiles, documentServices } from "./domain-content";
 // Every entry belongs to one public placement. Do not use a photo in two slots.
 export const tidImages = {
   homeHero: "/tid/communication.webp",
@@ -23,6 +24,8 @@ export const homeEditorialImages = {
 };
 export const reservedImages: readonly string[] = [
   ...Object.values(tidImages),
+  ...Object.values(domainProfiles).map(profile => profile.image),
+  ...documentServices.map(service => service.image),
   ...homeEditorialImages.news,
   ...homeEditorialImages.blog,
 ];

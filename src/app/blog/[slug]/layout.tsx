@@ -1,3 +1,6 @@
+import { createSeoMetadata } from "@/lib/seo";
+import { getRequestSiteConfig } from "@/lib/server-seo";
+import { domainCopy } from "@/lib/domain-content";
 import { tidImages } from "@/lib/tid-images";
 import type { Metadata } from "next";
 export async function generateMetadata({
@@ -6,16 +9,17 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  return {
+  const site = await getRequestSiteConfig();
+  return createSeoMetadata({
     title: "Blog Yazısı",
-    description: "TİD blog: işaret dili, tercümanlık ve erişilebilir iletişim.",
-    alternates: { canonical: `/blog/${encodeURIComponent(slug)}` },
-    openGraph: {
-      type: "article",
-      url: `/blog/${encodeURIComponent(slug)}`,
-      images: [tidImages.socialPreview],
-    },
-  };
+    description: site.profileId
+      ? domainCopy.editorial
+      : "TİD blog: işaret dili, tercümanlık ve erişilebilir iletişim.",
+    path: `/blog/${encodeURIComponent(slug)}`,
+    image: tidImages.socialPreview,
+    type: "article",
+    site,
+  });
 }
 export default function BlogDetailLayout({
   children,

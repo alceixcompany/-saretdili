@@ -2001,3 +2001,12 @@ body {
     --tid-hero-image-position: 72% center;
   }
 }
+
+/* Long service names must stay legible in every supported language. */
+.tid-document-site .tid-hero-copy {
+  max-width: 780px;
+}
+.tid-document-site .tid-image-hero .tid-hero-copy h1 {
+  font-size: clamp(38px, 5.5vw, 76px);
+  hyphens: auto;
+}

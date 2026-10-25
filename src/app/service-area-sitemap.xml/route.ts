@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import { createUrlsetXml, getServiceAreaEntries } from '@/lib/sitemap'
 import { getSiteConfigByHost } from '@/lib/domain-seo'
 
-export const revalidate = 3600
+export const dynamic = "force-dynamic"
 
 export async function GET(request: Request) {
   const site = getSiteConfigByHost(request.headers.get('x-forwarded-host') || request.headers.get('host'))

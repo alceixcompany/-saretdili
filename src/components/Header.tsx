@@ -8,6 +8,8 @@ import { useEffect, useRef, useState } from "react";
 import { LocalizedLink as Link } from "@/components/LanguageProvider";
 import { usePathname } from "next/navigation";
 import { FiArrowUpRight, FiMenu, FiX } from "react-icons/fi";
+import { useSiteConfig } from "@/components/SiteProvider";
+import { domainCopy } from "@/lib/domain-content";
 import TidBrand from "./TidBrand";
 const links = [
   { href: "/", label: "Ana Sayfa" },
@@ -19,6 +21,7 @@ const links = [
 ];
 export default function Header() {
   const pathname = usePathname();
+  const site = useSiteConfig();
   const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   const toggle = useRef<HTMLButtonElement>(null);
@@ -106,7 +109,9 @@ export default function Header() {
               className="tid-button tid-button-small"
               onClick={() => setOpen(false)}
             >
-              <Text>{"Randevu Oluştur "}</Text>
+              <Text>
+                {site.profileId ? domainCopy.quote : "Randevu Oluştur "}
+              </Text>
               <FiArrowUpRight />
             </Link>
             <LanguageSelect />

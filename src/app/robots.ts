@@ -1,15 +1,17 @@
 import { MetadataRoute } from 'next'
 import { getRequestSiteConfig } from '@/lib/server-seo'
 
+export const dynamic = "force-dynamic";
+
 export default async function robots(): Promise<MetadataRoute.Robots> {
   const siteConfig = await getRequestSiteConfig()
 
   return {
     rules: {
       userAgent: '*',
-      allow: process.env.NEXT_PUBLIC_SITE_URL ? '/' : undefined,
+      allow: siteConfig.domain !== 'localhost' ? '/' : undefined,
       disallow: [
-        ...(process.env.NEXT_PUBLIC_SITE_URL ? [] : ['/']),
+        ...(siteConfig.domain !== 'localhost' ? [] : ['/']),
         '/admin/',
         '/api/',
       ],

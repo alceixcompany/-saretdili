@@ -1,4 +1,6 @@
 "use client";
+import { useSiteConfig } from "@/components/SiteProvider";
+import { domainCopy } from "@/lib/domain-content";
 import TidHero from "@/components/TidHero";
 import { useState } from "react";
 import Link from "next/link";
@@ -21,7 +23,7 @@ import {
   type ContentKind,
 } from "@/lib/editorial";
 import { tidImages } from "@/lib/tid-images";
-const labels = {
+const tidLabels = {
   news: {
     title: "Haberler",
     eyebrow: "HABERLER",
@@ -40,6 +42,14 @@ const labels = {
     empty: "Henüz blog yazısı bulunmuyor.",
   },
 };
+function useEditorialLabels() {
+  const site = useSiteConfig();
+  return site.profileId ? {
+    news: { ...tidLabels.news, description: domainCopy.news },
+    blog: { ...tidLabels.blog, description: domainCopy.editorial },
+  } : tidLabels;
+}
+
 function DateLabel({ value }: { value: string }) {
   const { locale } = useLanguage();
   return value ? (
@@ -53,6 +63,7 @@ function DateLabel({ value }: { value: string }) {
 }
 function ArticleCard({ article, image }: { article: Article; image?: string }) {
   const { locale, t } = useLanguage();
+  const labels = useEditorialLabels();
   const copy = localizedArticle(article, locale);
   return (
     <article className="tid-editorial-card">
@@ -133,6 +144,7 @@ function ContentStatus({
   );
 }
 export function EditorialHome({ initialArticles }: { initialArticles?: Article[] }) {
+  const labels = useEditorialLabels();
   const { articles, loading, error, retry } = usePublishedContent(initialArticles);
   const images = resolveEditorialImages(articles);
   return (
@@ -188,6 +200,7 @@ export function EditorialHome({ initialArticles }: { initialArticles?: Article[]
   );
 }
 export function EditorialArchive({ kind, initialArticles }: { kind: ContentKind; initialArticles?: Article[] }) {
+  const labels = useEditorialLabels();
   const { articles, loading, error, retry } = usePublishedContent(initialArticles);
   const images = resolveEditorialImages(articles);
   const [visible, setVisible] = useState(9);
@@ -279,6 +292,7 @@ export function EditorialDetail({
   kind: ContentKind;
   initialArticles?: Article[];
 }) {
+  const labels = useEditorialLabels();
   const { articles, loading, error, retry } = usePublishedContent(initialArticles);
   const { locale, t } = useLanguage();
   // Document IDs also resolve old records that were created before slugs existed.

@@ -18,7 +18,7 @@ npm run lint
 npm run test:content
 ```
 
-`.env.local` içindeki mevcut Firebase bağlantısı korunur. `.env.example` değişken adlarını içerir. Üretim alan adı belirlendiğinde `NEXT_PUBLIC_SITE_URL` ayarlanmalıdır. Bu değişken verilmezse canonical URL yerel önizleme adresidir ve sayfalar `noindex` üretir.
+`.env.local` içindeki mevcut Firebase bağlantısı korunur. `.env.example` değişken adlarını içerir. `NEXT_PUBLIC_SITE_URL` ana TİD sitesinin adresidir; boşsa `https://isaretdili.vercel.app` kullanılır. Belge hizmetlerine ait beş domain kendi kayıtlı canonical adreslerini kullanır; her domain için ayrı env veya deployment gerekmez.
 
 ## Ayrıntılı proje incelemesi
 
@@ -167,3 +167,23 @@ Yeminli tercüman ve noter sayfalarında projede bulunan, üzerinde eski marka y
 Ana sayfa, hakkımızda, hizmet listesi/ayrıntıları, iletişim ve haber/blog sayfaları ortak `TidHero` bileşenini kullanır. Fotoğraf sayfa genişliğini kaplar; siyah geçişli katman metin tarafında yoğunlaşır ve açık renk başlıklarla okunaklı bir giriş oluşturur. Hizmetlerde ilgili görsel, yazı detaylarında yönetim panelindeki kapak görseli kullanılır. Mobilde başlık boyutu ve fotoğraf odağı ayarlanır; Arapçada geçiş yönü tersine çevrilir. Arka plan görselleri dekoratif olduğu için ekran okuyucudan gizlenir.
 
 Bu güncellemenin ana sayfa masaüstü/mobil ve Arapça görünümü tarayıcıda doğrulandı; yatay taşma bulunmadı. Önceki turdaki önizleme bağlantı sorunu mevcut hizmetler sekmesinde görülmedi.
+
+## Birden fazla domain
+
+Gelen `x-forwarded-host` / `host` başlığı, `src/lib/domain-seo.ts` içindeki izinli domain listesiyle eşleştirilir. Kök domain ve `www` aynı içerik profiline gider; bilinmeyen host ana TİD sitesine düşer. Hosttan serbest canonical URL üretilmez.
+
+| Domain | İçerik odağı | Canonical origin |
+| --- | --- | --- |
+| konsoloslukonaylari.com | Konsolosluk onaylarına hazırlık ve tercüme | https://www.konsoloslukonaylari.com |
+| apostilislemleri.net | Apostil hazırlığı ve belge tercümesi | https://www.apostilislemleri.net |
+| noteronaylitercume.net | Noter onaylı tercüme | https://www.noteronaylitercume.net |
+| tercumeofisi.net.tr | Bireysel ve kurumsal belge tercümesi | https://tercumeofisi.net.tr |
+| yeminlitercume.net.tr | Yeminli tercüme | https://yeminlitercume.net.tr |
+
+Ana sayfa, hakkımızda, hizmet listesi ve beş belge hizmeti ayrıntısı bu profilleri kullanır. Ortak header/footer, iletişim formu, SEO, Open Graph, robots ve XML sitemap adresleri aynı sunucu profilini izler. Formun varsayılan hizmeti domainin odağına göre seçilir; admin mesajında `Kaynak site` bilgisi yer alır. Yeni metinler Türkçe, İngilizce, Almanca, Arapça ve Rusçadır. Ana TİD sitesinin üç hizmeti korunur. Haber/blog verileri ve yönetim paneli aynı Firebase projesini paylaşır.
+
+İçerik ve dil karşılıkları `src/lib/domain-content.ts` içindedir. Domain ana sayfaları ve hizmet ayrıntılarına ayrılan fotoğraflar `reservedImages` listesine dahildir; eski projeye ait görsel eşlemeleri bu alanları tekrar kullanamaz. Var olan Firebase makale kayıtları bu değişiklikte düzenlenmez.
+
+Vercel tarafında her domainin **hem kök hem `www` adresini** aynı projenin Production deployment'ına ekleyin. Canonical origin sütunundaki biçimi tercih edin; farklı hizmet domainlerini ana TİD adresine veya birbirine redirect etmeyin. DNS sağlayıcısında, Vercel'in ilgili domain için gösterdiği güncel A/CNAME kayıtlarını uygulayın ve SSL doğrulamasının tamamlandığını kontrol edin. DNS değerleri hesap/projeye göre Vercel panelinden alınmalıdır. Bu kod değişikliği Vercel domain veya DNS ayarlarını kendiliğinden değiştirmez. Resmî kurulum: https://vercel.com/docs/domains/working-with-domains/add-a-domain
+
+Kontroller: `npm run test:domains`, `npm run test:content`, `npm run build`. Domain testi www/kök eşleştirmesini, bilinmeyen hostları, canonical izolasyonunu, hizmet bağlantılarını, dört ek dilin çevirilerini ve ayrılan görselleri doğrular.

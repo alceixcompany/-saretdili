@@ -4,6 +4,7 @@ import { articlePath, normalizeArticle } from "@/lib/editorial";
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/seo";
 import type { SiteConfig } from "@/lib/domain-seo";
+import { documentServices } from "./domain-content";
 import { tidServices } from "@/lib/tid";
 export type SitemapEntry = MetadataRoute.Sitemap[number];
 export function getStaticPageEntries(
@@ -27,7 +28,7 @@ export const staticPageEntries = getStaticPageEntries();
 export function getServiceEntries(
   site: SiteConfig = siteConfig,
 ): MetadataRoute.Sitemap {
-  return tidServices.map((service) => ({
+  return (site.profileId ? documentServices : tidServices).map((service) => ({
     url: `${site.url}/hizmetlerimiz/${service.slug}`,
     lastModified: new Date(),
     changeFrequency: "monthly",

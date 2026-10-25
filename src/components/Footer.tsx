@@ -4,10 +4,13 @@ import { LocalizedLink as Link } from "@/components/LanguageProvider";
 import { usePathname } from "next/navigation";
 import { FiArrowUpRight } from "react-icons/fi";
 import TidBrand from "./TidBrand";
-import { siteConfig } from "@/lib/seo";
+import { useSiteConfig } from "@/components/SiteProvider";
+import { domainCopy, documentServices } from "@/lib/domain-content";
 import { tidServices } from "@/lib/tid";
 export default function Footer() {
   const pathname = usePathname();
+  const siteConfig = useSiteConfig();
+  const services = siteConfig.profileId ? documentServices : tidServices;
   if (pathname.startsWith("/admin")) return null;
   return (
     <footer className="tid-footer">
@@ -17,13 +20,17 @@ export default function Footer() {
             <TidBrand light />
             <p>
               <Text>
-                {
-                  "İletişimin önündeki engelleri birlikte aşalım. Türk İşaret Dili ve tercümanlık hizmetleriyle yanınızdayız."
-                }
+                {siteConfig.profileId
+                  ? domainCopy.footer
+                  : "İletişimin önündeki engelleri birlikte aşalım. Türk İşaret Dili ve tercümanlık hizmetleriyle yanınızdayız."}
               </Text>
             </p>
             <span className="tid-footer-tag">
-              <Text>{"Anlaşılmak herkesin hakkı."}</Text>
+              <Text>
+                {siteConfig.profileId
+                  ? domainCopy.brand
+                  : "Anlaşılmak herkesin hakkı."}
+              </Text>
             </span>
           </div>
           <div>
@@ -53,7 +60,7 @@ export default function Footer() {
             <h2>
               <Text>{"Hizmetlerimiz"}</Text>
             </h2>
-            {tidServices.map((service) => (
+            {services.map((service) => (
               <Link key={service.slug} href={`/hizmetlerimiz/${service.slug}`}>
                 <Text>{service.title}</Text>
               </Link>
@@ -66,12 +73,14 @@ export default function Footer() {
             <p>
               <Text>{"TELEFON"}</Text>
             </p>
-            <a className="tid-footer-phone" href={`tel:${siteConfig.phone}`} dir="ltr">
+            <a
+              className="tid-footer-phone"
+              href={`tel:${siteConfig.phone}`}
+              dir="ltr"
+            >
               {siteConfig.phoneDisplay} <FiArrowUpRight />
             </a>
-            <p>
-              WhatsApp
-            </p>
+            <p>WhatsApp</p>
             <a
               className="tid-footer-phone"
               href={`https://wa.me/${siteConfig.whatsapp.replace("+", "")}`}
@@ -90,12 +99,18 @@ export default function Footer() {
         <div className="tid-footer-bottom">
           <span>
             <Text>{"© "}</Text>
-            {new Date().getFullYear()}
-            <Text>{" TİD. Tüm hakları saklıdır."}</Text>
+            {new Date().getFullYear()}{" "}
+            <Text>
+              {siteConfig.profileId
+                ? domainCopy.rights
+                : "TİD. Tüm hakları saklıdır."}
+            </Text>
           </span>
           <span>
             <Text>
-              {"Türk İşaret Dili · Yeminli Tercüman · Noter İşlemleri"}
+              {siteConfig.profileId
+                ? domainCopy.services
+                : "Türk İşaret Dili · Yeminli Tercüman · Noter İşlemleri"}
             </Text>
           </span>
         </div>

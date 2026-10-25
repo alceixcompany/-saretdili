@@ -233,7 +233,13 @@ test("one image belongs to one placement across news, blog, homepage and rich te
 test("all public photo placements reference present, unique image bytes", () => {
   const { reservedImages } = loadTs("src/lib/tid-images.ts");
   const replacements = require("../src/lib/tid-editorial-images.json");
-  const urls = [...reservedImages, ...Object.values(replacements).flatMap(({ card, hero }) => [card, hero])];
+  // Domain placements own their photos first; retired project mappings are
+  // provenance only when that photo has been assigned to a current page.
+  const legacyArticles = Object.entries(replacements).map(([id, replacement]) =>
+    normalizeArticle(id, { ...source, imageUrl: replacement.source }),
+  );
+  const resolved = resolveEditorialImages(legacyArticles);
+  const urls = [...reservedImages, ...Object.values(resolved).flatMap(({ card, hero }) => [card, hero].filter(Boolean))];
   assert.equal(new Set(urls).size, urls.length);
   const { createHash } = require("node:crypto");
   const allPhotos = [...new Set([...urls, ...fs.readdirSync(path.resolve(__dirname, "../public/tid/photos")).filter(name => name.endsWith(".webp")).map(name => "/tid/photos/" + name)])];

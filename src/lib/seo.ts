@@ -46,11 +46,11 @@ export function createSeoMetadata({
   return {
     title,
     description,
-    robots: { index: Boolean(process.env.NEXT_PUBLIC_SITE_URL), follow: true },
+    robots: { index: site.domain !== "localhost", follow: true },
     keywords: [
       site.name,
       site.shortName,
-      ...serviceKeywords,
+      ...(site.profileId ? [] : serviceKeywords),
       ...site.keywords,
       ...keywords,
     ],

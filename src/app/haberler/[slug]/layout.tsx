@@ -1,3 +1,4 @@
+import { domainCopy } from "@/lib/domain-content";
 import { tidImages } from "@/lib/tid-images";
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
@@ -25,7 +26,9 @@ export async function generateMetadata({
 
   return createSeoMetadata({
     title,
-    description: `${site.name} haber: ${title}. İşaret dili, tercümanlık ve erişilebilir iletişim hakkında güncel içerikler.`,
+    description: site.profileId
+      ? `${site.name}: ${title}. ${domainCopy.news}`
+      : `${site.name} haber: ${title}. İşaret dili, tercümanlık ve erişilebilir iletişim hakkında güncel içerikler.`,
     path: `/haberler/${slug}`,
     image: tidImages.socialPreview,
     keywords: [

@@ -1,4 +1,9 @@
 import { tidImages } from "./tid-images";
+import {
+  domainProfiles,
+  getDomainProfile,
+  type DomainProfileId,
+} from "./domain-content";
 export type SiteAddress = {
   streetAddress: string;
   addressLocality: string;
@@ -9,6 +14,7 @@ export type SiteAddress = {
 };
 export type SiteGeo = { latitude: number; longitude: number };
 export type SiteConfig = {
+  profileId?: DomainProfileId;
   name: string;
   shortName: string;
   domain: string;
@@ -34,9 +40,9 @@ export type SiteConfig = {
   keywords: readonly string[];
   areaServed: readonly string[];
 };
-// Set the confirmed production domain in NEXT_PUBLIC_SITE_URL before publishing.
+// The primary site and every registered domain have explicit, trusted origins.
 const siteUrl = (
-  process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
+  process.env.NEXT_PUBLIC_SITE_URL || "https://isaretdili.vercel.app"
 ).replace(/\/$/, "");
 export const defaultSiteConfig: SiteConfig = {
   name: "TİD İşaret Dili ve Tercümanlık",
@@ -79,18 +85,53 @@ export const defaultSiteConfig: SiteConfig = {
   ],
   areaServed: ["Türkiye"],
 };
-export const domainSeoConfigs: Record<string, SiteConfig> = {
-  [defaultSiteConfig.domain]: defaultSiteConfig,
-};
 export function normalizeHost(host?: string | null) {
   return (host || "")
+    .split(",")[0]
+    .trim()
     .split(":")[0]
     .toLowerCase()
     .replace(/^www\./, "");
 }
+export const domainSeoConfigs: Record<string, SiteConfig> = {
+  [normalizeHost(defaultSiteConfig.domain)]: defaultSiteConfig,
+  "isaretdili.vercel.app": defaultSiteConfig,
+  ...Object.fromEntries(
+    Object.entries(domainProfiles).map(([id, profile]) => {
+      const content = getDomainProfile(id as DomainProfileId)!;
+      return [
+        profile.host,
+        {
+          ...defaultSiteConfig,
+          profileId: id as DomainProfileId,
+          name: `Best Tercümanlık | ${content.title}`,
+          shortName: "Best Tercümanlık",
+          domain: profile.host,
+          url: profile.url,
+          title: `${content.title} | Best Tercümanlık`,
+          titleTemplate: "%s | Best Tercümanlık",
+          description: content.description,
+          ogDescription: content.description,
+          keywords: [
+            content.title.toLocaleLowerCase("tr-TR"),
+            "belge tercümesi",
+            "tercüme hizmetleri",
+          ],
+        } satisfies SiteConfig,
+      ];
+    }),
+  ),
+};
 export function getSiteConfigByHost(host?: string | null): SiteConfig {
-  return domainSeoConfigs[normalizeHost(host)] || defaultSiteConfig;
+  const key = normalizeHost(host);
+  return Object.prototype.hasOwnProperty.call(domainSeoConfigs, key)
+    ? domainSeoConfigs[key]
+    : defaultSiteConfig;
 }
 export function getAllSiteConfigs() {
-  return Object.values(domainSeoConfigs);
+  return [
+    ...new Map(
+      Object.values(domainSeoConfigs).map((site) => [site.url, site]),
+    ).values(),
+  ];
 }

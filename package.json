@@ -11,7 +11,8 @@
     "seed:news": "node scripts/seed-yp-news.mjs",
     "seed:references": "node scripts/seed-references.mjs",
     "seed:tid": "node scripts/seed-tid-content.mjs",
-    "test:content": "node --test scripts/editorial.test.cjs"
+    "test:content": "node --test scripts/editorial.test.cjs",
+    "test:domains": "node --test scripts/domains.test.cjs"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^41.4.2",

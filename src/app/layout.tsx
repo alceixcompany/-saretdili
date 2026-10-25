@@ -1,3 +1,4 @@
+import { SiteProvider } from "@/components/SiteProvider";
 import { cookies } from "next/headers";
 import { LanguageProvider } from "@/components/LanguageProvider";
 import { isLocale, localeMeta } from "@/lib/tid-i18n";
@@ -41,17 +42,17 @@ export async function generateMetadata(): Promise<Metadata> {
     keywords: [
       activeSite.name,
       activeSite.shortName,
-      ...serviceKeywords,
+      ...(activeSite.profileId ? [] : serviceKeywords),
       ...activeSite.keywords,
     ],
     authors: [{ name: activeSite.name }],
     creator: activeSite.name,
     publisher: activeSite.name,
     robots: {
-      index: Boolean(process.env.NEXT_PUBLIC_SITE_URL),
+      index: activeSite.domain !== "localhost",
       follow: true,
       googleBot: {
-        index: Boolean(process.env.NEXT_PUBLIC_SITE_URL),
+        index: activeSite.domain !== "localhost",
         follow: true,
         "max-image-preview": "large",
         "max-snippet": -1,
@@ -77,10 +78,20 @@ export async function generateMetadata(): Promise<Metadata> {
     icons: {
       icon: [
         { url: "/tid/brand/best-icon.png", type: "image/png", sizes: "64x64" },
-        { url: "/tid/brand/best-app-icon.png", type: "image/png", sizes: "192x192" },
+        {
+          url: "/tid/brand/best-app-icon.png",
+          type: "image/png",
+          sizes: "192x192",
+        },
       ],
       shortcut: "/tid/brand/best-icon.png",
-      apple: [{ url: "/tid/brand/best-apple-icon.png", type: "image/png", sizes: "180x180" }],
+      apple: [
+        {
+          url: "/tid/brand/best-apple-icon.png",
+          type: "image/png",
+          sizes: "180x180",
+        },
+      ],
     },
     openGraph: {
       title: activeSite.title,
@@ -117,7 +128,11 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const saved = (await cookies()).get("tid-locale")?.value;
+  const [cookieStore, site] = await Promise.all([
+    cookies(),
+    getRequestSiteConfig(),
+  ]);
+  const saved = cookieStore.get("tid-locale")?.value;
   const locale = isLocale(saved) ? saved : "tr";
   return (
     <html lang={locale} dir={localeMeta[locale].dir}>
@@ -126,7 +141,9 @@ export default async function RootLayout({
       >
         <ReduxProvider>
           <LanguageProvider initialLocale={locale}>
-            <RootLayoutContent>{children}</RootLayoutContent>
+            <SiteProvider site={site}>
+              <RootLayoutContent>{children}</RootLayoutContent>
+            </SiteProvider>
           </LanguageProvider>
         </ReduxProvider>
       </body>

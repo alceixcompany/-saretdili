@@ -1,3 +1,6 @@
+"use client";
+import { useSiteConfig } from "@/components/SiteProvider";
+import { domainCopy } from "@/lib/domain-content";
 import { Text } from "@/components/LanguageProvider";
 import { LocalizedLink as Link } from "@/components/LanguageProvider";
 import { FiArrowUpRight } from "react-icons/fi";
@@ -44,12 +47,15 @@ export function ServiceCards() {
   );
 }
 export function TidCta() {
+  const site = useSiteConfig();
   return (
     <section className="tid-cta">
       <div className="tid-container">
         <div>
           <span className="tid-eyebrow">
-            <Text>{"BİR İŞARETLE BAŞLAYALIM"}</Text>
+            <Text>
+              {site.profileId ? domainCopy.brand : "BİR İŞARETLE BAŞLAYALIM"}
+            </Text>
           </span>
           <h2>
             <Text>{"Bir sonraki adımı"}</Text>
@@ -58,9 +64,9 @@ export function TidCta() {
           </h2>
           <p>
             <Text>
-              {
-                "Tercümanlık ihtiyacınızı paylaşın, size uygun süreci planlayalım."
-              }
+              {site.profileId
+                ? domainCopy.contactIntro
+                : "Tercümanlık ihtiyacınızı paylaşın, size uygun süreci planlayalım."}
             </Text>
           </p>
         </div>

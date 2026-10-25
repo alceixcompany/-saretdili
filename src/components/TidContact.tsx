@@ -10,7 +10,12 @@ import {
   FiPhone,
   FiSend,
 } from "react-icons/fi";
-import { siteConfig } from "@/lib/seo";
+import { useSiteConfig } from "@/components/SiteProvider";
+import {
+  domainCopy,
+  documentServices,
+  getDomainProfile,
+} from "@/lib/domain-content";
 import { tidServices } from "@/lib/tid";
 import { useAppDispatch } from "@/store/hooks";
 import { sendContactMessage } from "@/store/slices/contactSlice";
@@ -20,6 +25,9 @@ export default function TidContact({
 }: {
   initialService: string;
 }) {
+  const siteConfig = useSiteConfig();
+  const profile = getDomainProfile(siteConfig.profileId);
+  const services = profile ? documentServices : tidServices;
   const dispatch = useAppDispatch();
   const { t } = useLanguage();
   const [service, setService] = useState(initialService);
@@ -33,7 +41,7 @@ export default function TidContact({
     const form = event.currentTarget;
     const data = new FormData(form);
     if (data.get("website")) return;
-    const selected = tidServices.find((item) => item.slug === service)!;
+    const selected = services.find((item) => item.slug === service)!;
     setState("sending");
     try {
       if (!navigator.onLine) throw new Error("Offline");
@@ -42,12 +50,13 @@ export default function TidContact({
           name: String(data.get("name")).trim(),
           email: String(data.get("email")).trim(),
           phone: String(data.get("phone") || "").trim(),
-          subject: `TİD — ${selected.title} talebi`,
+          subject: `${profile ? "Best Tercümanlık" : "TİD"} — ${selected.title} talebi`,
           priority: "medium",
           message: [
             `Hizmet: ${selected.title}`,
+            `Kaynak site: ${siteConfig.domain}`,
             `Tercih edilen tarih: ${data.get("date") || "Belirtilmedi"}`,
-            `Görüşme yeri / biçimi: ${data.get("location") || "Belirtilmedi"}`,
+            `Yer / kullanım ülkesi / kurum: ${data.get("location") || "Belirtilmedi"}`,
             `İletişim tercihi: ${data.get("channel")}`,
             "",
             String(data.get("message")).trim(),
@@ -65,10 +74,7 @@ export default function TidContact({
   }
   return (
     <main id="main-content" className="tid-site">
-      <TidHero
-        image={tidImages.contactHero}
-        imagePosition="center 36%"
-      >
+      <TidHero image={tidImages.contactHero} imagePosition="center 36%">
         <div className="tid-container">
           <div className="tid-breadcrumb">
             <Link href="/">
@@ -82,7 +88,7 @@ export default function TidContact({
             </span>
           </div>
           <span className="tid-eyebrow">
-            <Text>{"BİR İŞARETLE BAŞLAYALIM"}</Text>
+            <Text>{profile ? profile.title : "BİR İŞARETLE BAŞLAYALIM"}</Text>
           </span>
           <h1>
             <Text>{"Sizi dinliyoruz."}</Text>
@@ -91,9 +97,9 @@ export default function TidContact({
           </h1>
           <p>
             <Text>
-              {
-                "Tercümanlık ihtiyacınızı bize yazın. Hizmet, tarih ve görüşme koşullarını birlikte netleştirelim."
-              }
+              {profile
+                ? domainCopy.contactIntro
+                : "Tercümanlık ihtiyacınızı bize yazın. Hizmet, tarih ve görüşme koşullarını birlikte netleştirelim."}
             </Text>
           </p>
         </div>
@@ -150,7 +156,9 @@ export default function TidContact({
             aria-busy={state === "sending"}
           >
             <h2>
-              <Text>{"Tercümanlık talebiniz"}</Text>
+              <Text>
+                {profile ? domainCopy.contactHeading : "Tercümanlık talebiniz"}
+              </Text>
             </h2>
             <p>
               <Text>
@@ -222,7 +230,7 @@ export default function TidContact({
                   value={service}
                   onChange={(e) => setService(e.target.value)}
                 >
-                  {tidServices.map((item) => (
+                  {services.map((item) => (
                     <option key={item.slug} value={item.slug}>
                       <Text>{item.title}</Text>
                     </option>
@@ -234,12 +242,16 @@ export default function TidContact({
                 <input type="date" name="date" />
               </label>
               <label className="tid-form-wide">
-                <Text>{"Görüşme yeri veya biçimi"}</Text>
+                <Text>
+                  {profile ? domainCopy.location : "Görüşme yeri veya biçimi"}
+                </Text>
                 <input
                   name="location"
                   maxLength={200}
                   placeholder={t(
-                    "Şehir, kurum / noterlik ya da çevrim içi görüşme",
+                    profile
+                      ? domainCopy.locationHint
+                      : "Şehir, kurum / noterlik ya da çevrim içi görüşme",
                   )}
                 />
               </label>
@@ -252,7 +264,9 @@ export default function TidContact({
                   maxLength={3000}
                   rows={4}
                   placeholder={t(
-                    "Görüşmenin konusu, tahmini süresi ve ihtiyaçlarınız…",
+                    profile
+                      ? domainCopy.subtitle
+                      : "Görüşmenin konusu, tahmini süresi ve ihtiyaçlarınız…",
                   )}
                 />
               </label>

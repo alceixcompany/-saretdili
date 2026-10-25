@@ -1,3 +1,5 @@
+import { DomainServiceDetail } from "@/components/DomainContent";
+import { getDocumentService, documentServices } from "@/lib/domain-content";
 import TidHero from "@/components/TidHero";
 import { Text } from "@/components/LanguageProvider";
 import { notFound, redirect } from "next/navigation";
@@ -14,12 +16,16 @@ import {
 import { tidServices } from "@/lib/tid";
 type Props = { params: Promise<{ slug: string }> };
 export function generateStaticParams() {
-  return translationServices.map(({ slug }) => ({ slug }));
+  return [...translationServices, ...documentServices].map(({ slug }) => ({
+    slug,
+  }));
 }
 export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
-  const service = getTranslationService(slug);
   const site = await getRequestSiteConfig();
+  const service = site.profileId
+    ? getDocumentService(slug)
+    : getTranslationService(slug);
   if (!service) return {};
   return createSeoMetadata({
     title: service.title,
@@ -31,6 +37,12 @@ export async function generateMetadata({ params }: Props) {
 }
 export default async function ServiceDetailPage({ params }: Props) {
   const { slug } = await params;
+  const site = await getRequestSiteConfig();
+  if (site.profileId) {
+    const documentService = getDocumentService(slug);
+    if (!documentService) notFound();
+    return <DomainServiceDetail site={site} service={documentService} />;
+  }
   const service = getTranslationService(slug);
   if (!service) notFound();
   const primaryService = tidServices.find((item) => item.slug === slug);

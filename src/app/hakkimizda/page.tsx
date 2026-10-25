@@ -1,3 +1,5 @@
+import { DomainAboutPage } from "@/components/DomainContent";
+import { domainCopy } from "@/lib/domain-content";
 import { tidImages } from "@/lib/tid-images";
 import TidHero from "@/components/TidHero";
 import { Text } from "@/components/LanguageProvider";
@@ -12,8 +14,9 @@ export async function generateMetadata() {
   const site = await getRequestSiteConfig();
   return createSeoMetadata({
     title: "Hakkımızda",
-    description:
-      "TİD’nin insan odaklı Türk İşaret Dili ve tercümanlık yaklaşımını tanıyın. Anlaşılır ve erişilebilir iletişim için birlikte planlayalım.",
+    description: site.profileId
+      ? domainCopy.aboutBody
+      : "TİD’nin insan odaklı Türk İşaret Dili ve tercümanlık yaklaşımını tanıyın. Anlaşılır ve erişilebilir iletişim için birlikte planlayalım.",
     path: "/hakkimizda",
     site,
   });
@@ -35,7 +38,9 @@ const values = [
     text: "Hizmet kapsamını, görüşme koşullarını ve randevu planını baştan birlikte netleştiriyoruz.",
   },
 ];
-export default function AboutPage() {
+export default async function AboutPage() {
+  const site = await getRequestSiteConfig();
+  if (site.profileId) return <DomainAboutPage site={site} />;
   return (
     <main id="main-content" className="tid-site">
       <TidHero image={tidImages.aboutHero}>
