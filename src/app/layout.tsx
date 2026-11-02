@@ -77,17 +77,22 @@ export async function generateMetadata(): Promise<Metadata> {
       : undefined,
     icons: {
       icon: [
-        { url: "/tid/brand/best-icon.png", type: "image/png", sizes: "64x64" },
+        { url: "/tid/brand/elele-icon.png", type: "image/png", sizes: "64x64" },
         {
-          url: "/tid/brand/best-app-icon.png",
+          url: "/tid/brand/elele-app-icon.png",
           type: "image/png",
           sizes: "192x192",
         },
+        {
+          url: "/tid/brand/elele-app-icon-512.png",
+          type: "image/png",
+          sizes: "512x512",
+        },
       ],
-      shortcut: "/tid/brand/best-icon.png",
+      shortcut: "/tid/brand/elele-icon.png",
       apple: [
         {
-          url: "/tid/brand/best-apple-icon.png",
+          url: "/tid/brand/elele-apple-icon.png",
           type: "image/png",
           sizes: "180x180",
         },

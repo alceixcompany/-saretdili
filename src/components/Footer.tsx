@@ -103,7 +103,7 @@ export default function Footer() {
             <Text>
               {siteConfig.profileId
                 ? domainCopy.rights
-                : "TİD. Tüm hakları saklıdır."}
+                : "El Ele Tercümanlık. Tüm hakları saklıdır."}
             </Text>
           </span>
           <span>

@@ -8,7 +8,7 @@ function copy(tr: string, en: string, de: string, ar: string, ru: string) {
   return tr;
 }
 export const domainCopy = {
-  brand: "Best Tercümanlık",
+  brand: "El Ele Tercümanlık",
   quote: copy(
     "Teklif Alın",
     "Request a quote",
@@ -45,11 +45,11 @@ export const domainCopy = {
     "Понятное общение на каждом этапе работы с документом.",
   ),
   aboutBody: copy(
-    "Best Tercümanlık olarak belge tercümesi ve onay süreçlerine ilişkin talepleri kullanım amacına göre değerlendiriyoruz. Ön incelemede belge türü, hedef dil, teslim tarihi ve alıcı kurumun bildirdiği koşullar birlikte ele alınır.",
-    "At Best Tercümanlık, we assess document translation and certification requests according to their intended use. Our initial review considers document type, target language, deadline and the receiving institution's stated requirements.",
-    "Bei Best Tercümanlık prüfen wir Übersetzungs- und Beglaubigungsanfragen nach ihrem Verwendungszweck. Dokumentart, Zielsprache, Termin und die Vorgaben der empfangenden Stelle werden gemeinsam betrachtet.",
-    "في Best Tercümanlık نقيّم طلبات ترجمة الوثائق والتصديق بحسب الغرض من الاستخدام. تشمل المراجعة الأولية نوع الوثيقة واللغة والموعد والشروط المعلنة من الجهة المستلمة.",
-    "В Best Tercümanlık мы рассматриваем запросы на перевод и заверение с учётом цели использования. При первичной оценке учитываются вид документа, язык, срок и требования принимающего учреждения.",
+    "El Ele Tercümanlık olarak belge tercümesi ve onay süreçlerine ilişkin talepleri kullanım amacına göre değerlendiriyoruz. Ön incelemede belge türü, hedef dil, teslim tarihi ve alıcı kurumun bildirdiği koşullar birlikte ele alınır.",
+    "At El Ele Tercümanlık, we assess document translation and certification requests according to their intended use. Our initial review considers document type, target language, deadline and the receiving institution's stated requirements.",
+    "Bei El Ele Tercümanlık prüfen wir Übersetzungs- und Beglaubigungsanfragen nach ihrem Verwendungszweck. Dokumentart, Zielsprache, Termin und die Vorgaben der empfangenden Stelle werden gemeinsam betrachtet.",
+    "في El Ele Tercümanlık نقيّم طلبات ترجمة الوثائق والتصديق بحسب الغرض من الاستخدام. تشمل المراجعة الأولية نوع الوثيقة واللغة والموعد والشروط المعلنة من الجهة المستلمة.",
+    "В El Ele Tercümanlık мы рассматриваем запросы на перевод и заверение с учётом цели использования. При первичной оценке учитываются вид документа, язык, срок и требования принимающего учреждения.",
   ),
   approach: copy(
     "Kapsam ve ücret baştan netleşir; ek onay ya da belge gereksinimleri değerlendirme sırasında paylaşılır. Süre ve uygunluk, talebiniz incelendikten sonra teyit edilir.",
@@ -187,11 +187,11 @@ export const domainCopy = {
     "Поддержка в переводе документов и подготовке к заверению с учётом ваших потребностей.",
   ),
   rights: copy(
-    "Best Tercümanlık. Tüm hakları saklıdır.",
-    "Best Tercümanlık. All rights reserved.",
-    "Best Tercümanlık. Alle Rechte vorbehalten.",
-    "Best Tercümanlık. جميع الحقوق محفوظة.",
-    "Best Tercümanlık. Все права защищены.",
+    "El Ele Tercümanlık. Tüm hakları saklıdır.",
+    "El Ele Tercümanlık. All rights reserved.",
+    "El Ele Tercümanlık. Alle Rechte vorbehalten.",
+    "El Ele Tercümanlık. جميع الحقوق محفوظة.",
+    "El Ele Tercümanlık. Все права защищены.",
   ),
   contactHeading: copy(
     "Belge ve tercüme talebiniz",

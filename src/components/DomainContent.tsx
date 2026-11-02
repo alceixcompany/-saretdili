@@ -92,7 +92,7 @@ export function DomainHome({
       <TidHero image={profile.image} variant="home">
         <div className="tid-container tid-hero-content">
           <div className="tid-hero-copy">
-            <span className="tid-eyebrow">Best Tercümanlık</span>
+            <span className="tid-eyebrow">El Ele Tercümanlık</span>
             <h1>
               <Text>{profile.title}</Text>
             </h1>
@@ -258,7 +258,7 @@ export function DomainServiceDetail({
           url: `${site.url}/hizmetlerimiz/${service.slug}`,
           provider: {
             "@type": "Organization",
-            name: "Best Tercümanlık",
+            name: "El Ele Tercümanlık",
             url: site.url,
           },
         }}
@@ -274,7 +274,7 @@ export function DomainServiceDetail({
               <Text>{service.title}</Text>
             </span>
           </div>
-          <span className="tid-eyebrow">Best Tercümanlık</span>
+          <span className="tid-eyebrow">El Ele Tercümanlık</span>
           <h1>
             <Text>{service.title}</Text>
           </h1>
@@ -328,7 +328,7 @@ export function DomainAboutPage({ site }: { site: SiteConfig }) {
     <main id="main-content" className="tid-site tid-document-site">
       <TidHero image={tidImages.aboutHero}>
         <div className="tid-container">
-          <span className="tid-eyebrow">Best Tercümanlık</span>
+          <span className="tid-eyebrow">El Ele Tercümanlık</span>
           <h1>
             <Text>{domainCopy.about}</Text>
           </h1>

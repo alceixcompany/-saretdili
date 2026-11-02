@@ -1,6 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import { useAuth } from '@/hooks/useAuth';
 import { 
@@ -73,7 +74,10 @@ const AdminSidebar = () => {
           isMobileOpen ? 'translate-x-0' : '-translate-x-full'
         }`}>
           <div className="flex items-center justify-between h-16 px-4 border-b border-[rgba(212,175,55,0.18)]">
-            <h1 className="text-xl font-bold text-[var(--lale-ivory)]">TİD Admin</h1>
+            <Link href="/admin" className="flex items-center gap-2 text-sm font-bold text-[var(--lale-ivory)]" aria-label="El Ele Tercümanlık yönetim paneli">
+              <Image src="/tid/brand/elele-logo-square.webp" alt="" width={40} height={40} className="brightness-0 invert" />
+              El Ele Yönetim
+            </Link>
             <button
               onClick={toggleMobileMenu}
               className="text-[rgba(251,250,246,0.62)] hover:text-[var(--lale-gold)]"
@@ -141,7 +145,10 @@ const AdminSidebar = () => {
       <div className="hidden lg:flex lg:flex-shrink-0">
         <div className="w-64 border-r border-[rgba(212,175,55,0.18)] bg-[rgba(21,20,18,0.94)] shadow-[0_28px_80px_rgba(0,0,0,0.34)] backdrop-blur">
           <div className="flex items-center justify-center h-16 px-4 border-b border-[rgba(212,175,55,0.18)]">
-            <h1 className="text-xl font-bold text-[var(--lale-ivory)]">TİD Admin</h1>
+            <Link href="/admin" className="flex items-center gap-2 text-sm font-bold text-[var(--lale-ivory)]" aria-label="El Ele Tercümanlık yönetim paneli">
+              <Image src="/tid/brand/elele-logo-square.webp" alt="" width={40} height={40} className="brightness-0 invert" />
+              El Ele Yönetim
+            </Link>
           </div>
           
           {/* Admin Info - Desktop */}

@@ -50,7 +50,7 @@ export default function TidContact({
           name: String(data.get("name")).trim(),
           email: String(data.get("email")).trim(),
           phone: String(data.get("phone") || "").trim(),
-          subject: `${profile ? "Best Tercümanlık" : "TİD"} — ${selected.title} talebi`,
+          subject: `El Ele Tercümanlık — ${selected.title} talebi`,
           priority: "medium",
           message: [
             `Hizmet: ${selected.title}`,

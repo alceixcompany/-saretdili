@@ -1,0 +1,53 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "background-extraction",
+  "reference": "User-supplied El Ele Tercümanlık logo",
+  "prompt": "Use case: background-extraction. Asset type: production horizontal company logo, transparent PNG. Input image is the edit target. Remove the white background everywhere including the negative spaces inside the letters and between fingers of the central copper hand emblem. Preserve the existing logo EXACTLY: same dark teal lowercase 'el ele', same copper hand in the central e, all exact proportions, colors, sharp contours, typography. Text must stay verbatim: 'el ele', 'TERCÜMANLIK', 'İşaret Dili & Tercümanlık'. Preserve the two copper horizontal rules flanking the bottom tagline. No additions, no redesign, no shadow, no outline, no white fill, no checkerboard baked into pixels. Keep the complete wide original composition and all text fully visible with a small transparent margin. Background must be actual alpha transparency.",
+  "outputs": [
+    "public/tid/brand/elele-app-icon-512.png",
+    "public/tid/brand/elele-app-icon.png",
+    "public/tid/brand/elele-apple-icon.png",
+    "public/tid/brand/elele-icon.png",
+    "public/tid/brand/elele-logo-horizontal.png",
+    "public/tid/brand/elele-logo-horizontal.webp",
+    "public/tid/brand/elele-logo-square.png",
+    "public/tid/brand/elele-logo-square.webp"
+  ],
+  "processing": "Preserve generated alpha. Crop the complete lockup to 1670 × 728 at (158, 33), add 20 transparent pixels on each side. Extract the central hand emblem at (832, 145), 407 × 404, contain within 432 × 432 and add 40 transparent pixels on each side for the 512 × 512 square. Resize that square for 64, 180 and 192 pixel icons. Encode PNG and lossless WebP. Dark backgrounds use the existing CSS white monochrome treatment.",
+  "dimensions": {
+    "horizontal": [
+      1710,
+      768
+    ],
+    "square": [
+      512,
+      512
+    ],
+    "favicon": [
+      64,
+      64
+    ],
+    "apple": [
+      180,
+      180
+    ],
+    "app": [
+      192,
+      192
+    ]
+  },
+  "validation": [
+    "All delivered assets have alpha transparency.",
+    "Site header, footer, admin login, admin sidebar, metadata icons and structured-data logo use the new assets."
+  ],
+  "verification": {
+    "build": "npm run build passed with local preview Firebase settings; no production credentials are stored in this clone.",
+    "typescript": "Build TypeScript check and npx tsc --noEmit --incremental false passed.",
+    "lint": "ESLint passed for all changed TypeScript/TSX files.",
+    "existingTests": "13 content tests and 5 domain tests passed.",
+    "browser": "1440px desktop, 320px and 390px mobile, footer and admin-login logo inspected; no horizontal overflow at either mobile width.",
+    "sitemap": "All five XML routes returned HTTP 200. Main sitemap: 9 distinct static/service URLs, each returned HTTP 200. Page sitemap: 6; service sitemap: 3. robots.txt references the canonical sitemap and excludes /admin/.",
+    "limitation": "Live Firebase article records could not be verified without this deployment’s environment settings; local news sitemap correctly falls back to an empty URL set.",
+    "alpha": "All eight delivered PNG/WebP assets have transparent corners and at least 10% fully transparent pixels."
+  }
+}

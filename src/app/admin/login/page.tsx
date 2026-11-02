@@ -63,7 +63,7 @@ const AdminLogin = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/72 via-black/5 to-black/30" />
 
         <div className="relative flex items-center gap-3">
-          <Image src="/tid/brand/best-logo.webp" alt="Best Tercümanlık" width={1341} height={801} sizes="200px" className="h-auto w-[200px] object-contain brightness-0 invert" />
+          <Image src="/tid/brand/elele-logo-horizontal.webp" alt="El Ele Tercümanlık" width={1710} height={768} sizes="200px" className="h-auto w-[200px] object-contain brightness-0 invert" />
         </div>
 
         <div className="relative max-w-xl">
@@ -86,7 +86,7 @@ const AdminLogin = () => {
           className="w-full max-w-md"
         >
           <div className="mb-10 flex items-center gap-3 lg:hidden">
-            <Image src="/tid/brand/best-logo.webp" alt="Best Tercümanlık" width={1341} height={801} sizes="160px" className="h-auto w-40 object-contain" priority />
+            <Image src="/tid/brand/elele-logo-horizontal.webp" alt="El Ele Tercümanlık" width={1710} height={768} sizes="160px" className="h-auto w-40 object-contain" priority />
           </div>
 
           <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-[#171614]/10 bg-white text-[#8d6a30] shadow-sm">

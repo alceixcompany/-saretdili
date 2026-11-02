@@ -80,7 +80,7 @@ body {
 }
 .tid-brand-image {
   display: block;
-  width: 172px;
+  width: 220px;
   height: auto;
   object-fit: contain;
 }
@@ -610,7 +610,8 @@ body {
   filter: brightness(0) invert(1);
 }
 .tid-footer .tid-brand-image {
-  width: 208px;
+  width: 252px;
+  max-width: 100%;
 }
 .tid-footer-grid {
   display: grid;
@@ -1730,7 +1731,7 @@ body {
     --tid-header-height: 92px;
   }
   .tid-header .tid-brand-image {
-    width: 126px;
+    width: 176px;
   }
   .tid-menu-toggle {
     display: grid;

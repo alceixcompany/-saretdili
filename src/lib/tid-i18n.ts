@@ -584,11 +584,11 @@ export const tidTranslations: Record<
     "قدموا طلباً كتابياً",
     "Подать письменную заявку",
   ],
-  "TİD. Tüm hakları saklıdır.": [
-    "TİD. All rights reserved.",
-    "TİD. Alle Rechte vorbehalten.",
-    "TİD. جميع الحقوق محفوظة.",
-    "TİD. Все права защищены.",
+  "El Ele Tercümanlık. Tüm hakları saklıdır.": [
+    "El Ele Tercümanlık. All rights reserved.",
+    "El Ele Tercümanlık. Alle Rechte vorbehalten.",
+    "El Ele Tercümanlık. جميع الحقوق محفوظة.",
+    "El Ele Tercümanlık. Все права защищены.",
   ],
   "Türk İşaret Dili · Yeminli Tercüman · Noter İşlemleri": [
     "Turkish Sign Language · Sworn Interpreter · Notarial Appointments",

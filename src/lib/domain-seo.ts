@@ -45,8 +45,8 @@ const siteUrl = (
   process.env.NEXT_PUBLIC_SITE_URL || "https://isaretdili.vercel.app"
 ).replace(/\/$/, "");
 export const defaultSiteConfig: SiteConfig = {
-  name: "TİD İşaret Dili ve Tercümanlık",
-  shortName: "TİD",
+  name: "El Ele Tercümanlık — İşaret Dili & Tercümanlık",
+  shortName: "El Ele Tercümanlık",
   domain: new URL(siteUrl).hostname,
   url: siteUrl,
   locale: "tr_TR",
@@ -68,12 +68,12 @@ export const defaultSiteConfig: SiteConfig = {
   },
   geo: { latitude: 0, longitude: 0 },
   defaultImage: tidImages.socialPreview,
-  logo: "/tid/brand/best-logo.png",
+  logo: "/tid/brand/elele-logo-horizontal.png",
   locationName: "Türkiye",
-  title: "TİD | Türk İşaret Dili, Yeminli Tercüman ve Noter",
-  titleTemplate: "%s | TİD",
+  title: "El Ele Tercümanlık | Türk İşaret Dili, Yeminli Tercüman ve Noter",
+  titleTemplate: "%s | El Ele Tercümanlık",
   description:
-    "Türk İşaret Dili tercümanlığı, yeminli tercüman ve noter işlemlerinde işaret dili desteği. Erişilebilir iletişim için TİD ile randevu talep edin.",
+    "Türk İşaret Dili tercümanlığı, yeminli tercüman ve noter işlemlerinde işaret dili desteği. Erişilebilir iletişim için El Ele Tercümanlık ile randevu talep edin.",
   ogDescription:
     "Her işaret, bir köprü. Türk İşaret Dili, yeminli tercüman ve noter işlemlerinde yanınızdayız.",
   keywords: [
@@ -104,12 +104,12 @@ export const domainSeoConfigs: Record<string, SiteConfig> = {
         {
           ...defaultSiteConfig,
           profileId: id as DomainProfileId,
-          name: `Best Tercümanlık | ${content.title}`,
-          shortName: "Best Tercümanlık",
+          name: `El Ele Tercümanlık | ${content.title}`,
+          shortName: "El Ele Tercümanlık",
           domain: profile.host,
           url: profile.url,
-          title: `${content.title} | Best Tercümanlık`,
-          titleTemplate: "%s | Best Tercümanlık",
+          title: `${content.title} | El Ele Tercümanlık`,
+          titleTemplate: "%s | El Ele Tercümanlık",
           description: content.description,
           ogDescription: content.description,
           keywords: [
